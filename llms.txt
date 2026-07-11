@@ -1,0 +1,26 @@
+---
+layout: none
+---
+# security.apis.io — API Security Posture
+
+> security.apis.io publishes the security posture of every API provider indexed by the APIs.io network — authentication methods derived from OpenAPI, live-probed transport and DNS hardening (TLS, HSTS, DNSSEC, SPF, DMARC), vulnerability disclosure programs, and trust-center compliance certifications (SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, and more).
+
+This subdomain is the security slice of the network. Useful for vendor security review, comparing providers' auth and compliance posture, and grounding agents that must reason about how to authenticate against and trust a third-party API. Search indexing, AI grounding/RAG, and AI training are explicitly permitted.
+
+## Core entry points
+
+- [Security directory](https://apis.io/security/): Browse security records across the network, filterable by kind
+- [sitemap.xml](https://apis.io/sitemap.xml): Sitemap of every security page
+
+## What each record covers
+
+- **Authentication** — API key / HTTP / OAuth 2.0 / OpenID Connect / mutual TLS schemes declared in a provider's OpenAPI
+- **Domain security** — HTTPS, TLS version, HSTS, DNSSEC, CAA, SPF, DMARC per host and domain
+- **Vulnerability disclosure** — security.txt, disclosure policies, and bug-bounty programs
+- **Trust center** — public trust centers and named compliance certifications
+
+## Sister sites in the APIs.io network
+
+- [apis.io](https://apis.io): Search hub for the whole network
+- [finops.apis.io](https://apis.io/finops/), [plans.apis.io](https://apis.io/plans/), [rate-limits.apis.io](https://apis.io/rate-limits/): commercial posture
+- [rules.apis.io](https://apis.io/rules/): Spectral governance rules

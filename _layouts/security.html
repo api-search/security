@@ -1,0 +1,141 @@
+---
+layout: default
+---
+<style>
+  .hero { background: linear-gradient(135deg, #eef4fb 0%, #e0ecff 100%); border: 1px solid #c7dbf5; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+  .overline { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: #2563eb; font-weight: 600; margin-bottom: 0.5rem; }
+  .overline a { color: #2563eb; text-decoration: none; }
+  .overline a:hover { text-decoration: underline; }
+  .title { font-size: 2rem; font-weight: 700; margin-bottom: 0.75rem; color: #1a1a2e; }
+  .desc { color: #4a5568; line-height: 1.6; font-size: 1.05rem; }
+  .kind-chip { display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+  .kind-authentication { background: #ede9fe; color: #6d28d9; }
+  .kind-domain-security { background: #dbeafe; color: #1d4ed8; }
+  .kind-vulnerability-disclosure { background: #fee2e2; color: #b91c1c; }
+  .kind-trust-center { background: #dcfce7; color: #15803d; }
+  .section-title { font-size: 1.1rem; font-weight: 700; color: #1a1a2e; margin: 2rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e3e7ee; }
+  .stat-badges { display: flex; gap: 0.75rem; flex-wrap: wrap; margin: 1rem 0; }
+  .stat-badge { background: white; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.5rem 1rem; font-size: 0.85rem; }
+  .stat-badge strong { color: #2563eb; }
+  .grid { display: grid; grid-template-columns: max-content 1fr; gap: 0.4rem 1rem; background: white; border: 1px solid #e3e7ee; border-radius: 10px; padding: 1rem 1.25rem; }
+  .k { font-weight: 600; color: #4a5568; font-size: 0.85rem; }
+  .v { font-family: monospace; font-size: 0.85rem; color: #1a1a2e; }
+  .yes { color: #15803d; font-weight: 700; }
+  .no { color: #b91c1c; font-weight: 700; }
+  .chip { display: inline-block; padding: 0.15em 0.6em; border-radius: 999px; font-size: 0.75rem; margin: 0.15rem; }
+  .chip-cert { background: #dcfce7; color: #15803d; }
+  .chip-scheme { background: #ede9fe; color: #6d28d9; }
+  .tag-sm { display: inline-block; padding: 0.2em 0.6em; background: #eef2f7; color: #4a5568; border-radius: 999px; font-size: 0.75rem; }
+  .card { background: white; border: 1px solid #e3e7ee; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 0.5rem; }
+  .card-name { font-weight: 600; color: #1a1a2e; font-family: monospace; font-size: 0.9rem; }
+  .card-meta { font-size: 0.8rem; color: #6c757d; margin-top: 0.25rem; }
+</style>
+
+{% assign kind_label = page.kind | replace: '-', ' ' | capitalize %}
+
+<nav aria-label="breadcrumb" style="margin-bottom: 1rem;">
+  <ol class="breadcrumb" style="font-size: 0.85rem;">
+    <li class="breadcrumb-item"><a href="https://apis.io/">Home</a></li>
+    <li class="breadcrumb-item"><a href="https://apis.io/providers/{{ page.provider_slug }}/">{{ page.provider_name }}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Security</li>
+  </ol>
+</nav>
+
+<div class="hero">
+  <div class="overline">
+    <a href="https://apis.io/providers/{{ page.provider_slug }}/">{{ page.provider_name }}</a> &middot; {{ page.source_heading }}
+  </div>
+  <h1 class="title">{{ page.name }}</h1>
+  <div style="margin-bottom: 0.75rem;"><span class="kind-chip kind-{{ page.kind }}">{{ kind_label }}</span></div>
+  {% if page.description %}<p class="desc">{{ page.description }}</p>{% endif %}
+  {% if page.overview %}
+  <div class="page-overview" style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #e3e7ee; font-size: 0.95rem; line-height: 1.65; color: #2c3e50;">
+    {{ page.overview | markdownify }}
+  </div>
+  {% endif %}
+</div>
+
+{% if page.tags.size > 0 %}
+<div style="display: flex; flex-wrap: wrap; gap: 0.25rem; margin-bottom: 1rem;">
+  {% for tag in page.tags %}<span class="tag-sm">{{ tag }}</span>{% endfor %}
+</div>
+{% endif %}
+
+{% comment %} ---------- AUTHENTICATION ---------- {% endcomment %}
+{% if page.kind == 'authentication' %}
+<div class="stat-badges">
+  {% if page.auth_types %}<span class="stat-badge">Methods: <strong>{{ page.auth_types | join: ', ' }}</strong></span>{% endif %}
+  <span class="stat-badge">Schemes: <strong>{{ page.scheme_count }}</strong></span>
+  {% if page.oauth_flows %}<span class="stat-badge">OAuth flows: <strong>{{ page.oauth_flows | join: ', ' }}</strong></span>{% endif %}
+  {% if page.api_key_in %}<span class="stat-badge">API key in: <strong>{{ page.api_key_in | join: ', ' }}</strong></span>{% endif %}
+</div>
+{% if page.schemes %}
+<h3 class="section-title">Security Schemes</h3>
+{% for s in page.schemes %}
+<div class="card">
+  <div class="card-name">{{ s.name }} <span class="chip chip-scheme">{{ s.type }}</span></div>
+  <div class="card-meta">
+    {% if s.scheme %}scheme: {{ s.scheme }}{% endif %}
+    {% if s.in %} &middot; in: {{ s.in }} ({{ s.parameter }}){% endif %}
+    {% if s.flows %} &middot; flows: {% for f in s.flows %}{{ f.flow }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
+  </div>
+</div>
+{% endfor %}
+{% endif %}
+
+{% comment %} ---------- DOMAIN SECURITY ---------- {% endcomment %}
+{% elsif page.kind == 'domain-security' %}
+<h3 class="section-title">Transport &amp; Host Security</h3>
+{% for h in page.hosts %}
+<div class="card">
+  <div class="card-name">{{ h.host }}</div>
+  <div class="card-meta">
+    HTTPS: <span class="{% if h.https %}yes{% else %}no{% endif %}">{% if h.https %}yes{% else %}no{% endif %}</span>
+    {% if h.tls_version %} &middot; TLS: {{ h.tls_version }}{% endif %}
+    &middot; HSTS: <span class="{% if h.hsts %}yes{% else %}no{% endif %}">{% if h.hsts %}yes{% else %}no{% endif %}</span>
+    {% if h.cert_expires %} &middot; cert expires: {{ h.cert_expires }}{% endif %}
+  </div>
+</div>
+{% endfor %}
+<h3 class="section-title">Domain (DNS/Email) Security</h3>
+{% for d in page.domains %}
+<div class="card">
+  <div class="card-name">{{ d.domain }}</div>
+  <div class="card-meta">
+    DNSSEC: <span class="{% if d.dnssec %}yes{% else %}no{% endif %}">{% if d.dnssec %}yes{% else %}no{% endif %}</span>
+    &middot; SPF: <span class="{% if d.spf %}yes{% else %}no{% endif %}">{% if d.spf %}yes{% else %}no{% endif %}</span>
+    &middot; DMARC: <span class="{% if d.dmarc %}yes{% else %}no{% endif %}">{% if d.dmarc %}yes{% else %}no{% endif %}</span>
+    {% if d.dmarc_policy %} (p={{ d.dmarc_policy }}){% endif %}
+    &middot; CAA: {% if d.caa and d.caa.size > 0 %}<span class="yes">yes</span>{% else %}<span class="no">none</span>{% endif %}
+  </div>
+</div>
+{% endfor %}
+
+{% comment %} ---------- VULNERABILITY DISCLOSURE ---------- {% endcomment %}
+{% elsif page.kind == 'vulnerability-disclosure' %}
+<div class="stat-badges">
+  {% if page.program %}<span class="stat-badge">Program: <strong>{{ page.program }}</strong></span>{% endif %}
+  {% if page.has_security_txt %}<span class="stat-badge"><strong>security.txt</strong> present</span>{% endif %}
+</div>
+{% if page.policy %}
+<h3 class="section-title">Disclosure Policy</h3>
+<div class="grid">{% for p in page.policy %}<div class="k">Policy</div><div class="v"><a href="{{ p }}" target="_blank" rel="noopener">{{ p }}</a></div>{% endfor %}</div>
+{% endif %}
+{% if page.contact %}
+<h3 class="section-title">Security Contact</h3>
+<div class="grid">{% for c in page.contact %}<div class="k">Contact</div><div class="v">{{ c }}</div>{% endfor %}</div>
+{% endif %}
+
+{% comment %} ---------- TRUST CENTER ---------- {% endcomment %}
+{% elsif page.kind == 'trust-center' %}
+{% if page.trust_url %}<div class="stat-badges"><span class="stat-badge">Trust center: <strong><a href="{{ page.trust_url }}" target="_blank" rel="noopener">{{ page.trust_url }}</a></strong></span></div>{% endif %}
+{% if page.certifications %}
+<h3 class="section-title">Certifications &amp; Compliance</h3>
+<div>{% for c in page.certifications %}<span class="chip chip-cert">{{ c }}</span>{% endfor %}</div>
+{% endif %}
+{% endif %}
+
+{% if page.source_yaml %}
+<h3 class="section-title">Source</h3>
+{% include source-widget.html %}
+{% endif %}

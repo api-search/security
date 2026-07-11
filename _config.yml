@@ -1,0 +1,38 @@
+name: APIs.io Security
+description: Browse the security posture of API providers across the APIs.io network — authentication methods, domain/TLS hardening, vulnerability disclosure programs, and trust-center certifications.
+image: https://apis.io/assets/branding/apisio-social-card.png
+url: https://apis.io
+node: website
+nav_active: security
+
+keywords:
+  - APIs
+  - Security
+  - Authentication
+  - OAuth
+  - TLS
+  - HSTS
+  - DNSSEC
+  - Vulnerability Disclosure
+  - Bug Bounty
+  - SOC 2
+  - ISO 27001
+  - Trust Center
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+include: [".well-known"]
+
+github_org: api-search
+github_repo: security
+
+collections:
+  security:
+    output: true
+    permalink: /security/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: security
+    values:
+      layout: security

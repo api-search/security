@@ -1,0 +1,18 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/security/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <priority>1.0</priority>
+  </url>
+  {% for item in site.security %}
+  <url>
+    <loc>{{ site.url }}{{ item.url }}</loc>
+    <lastmod>{{ item.modified | default: site.time | date_to_xmlschema }}</lastmod>
+    <priority>0.7</priority>
+  </url>
+  {% endfor %}
+</urlset>

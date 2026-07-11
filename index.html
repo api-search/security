@@ -1,0 +1,76 @@
+---
+layout: default
+meta_title: "API Security Posture | APIs.io"
+meta_description: "Browse the security posture of API providers across the APIs.io network — authentication methods, TLS/DNS hardening, vulnerability disclosure programs, and trust-center certifications."
+---
+
+<style>
+  .page-hero { text-align: center; padding: 2rem 0 1.5rem; }
+  .page-hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  .page-hero p { color: #666; margin-bottom: 1.5rem; }
+  .filter-bar { max-width: 960px; margin: 0 auto 1rem; }
+  .kind-tabs { display: flex; gap: 0.4rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1.25rem; }
+  .kind-tab { cursor: pointer; border: 1px solid #e3e7ee; background: white; border-radius: 999px; padding: 0.35rem 0.9rem; font-size: 0.8rem; font-weight: 600; color: #4a5568; }
+  .kind-tab.active { background: #2563eb; color: white; border-color: #2563eb; }
+  .item-list { max-width: 960px; margin: 0 auto; }
+  .item-row { background: white; border: 1px solid #e3e7ee; border-left: 3px solid #2563eb; border-radius: 8px; padding: 0.75rem 1.25rem; margin-bottom: 0.4rem; transition: all 0.15s; }
+  .item-row:hover { border-color: #2563eb; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .item-row h3 { font-size: 0.95rem; font-weight: 600; margin: 0; }
+  .item-row h3 a { color: #1a1a2e; text-decoration: none; }
+  .item-row h3 a:hover { color: #2563eb; }
+  .item-provider { font-size: 0.8rem; color: #6c757d; }
+  .item-stats { font-size: 0.8rem; color: #999; }
+  .kchip { display: inline-block; padding: 0.1em 0.55em; border-radius: 999px; font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.4px; margin-left: 0.4rem; vertical-align: middle; }
+  .k-authentication { background: #ede9fe; color: #6d28d9; }
+  .k-domain-security { background: #dbeafe; color: #1d4ed8; }
+  .k-vulnerability-disclosure { background: #fee2e2; color: #b91c1c; }
+  .k-trust-center { background: #dcfce7; color: #15803d; }
+</style>
+
+<div class="page-hero">
+  <h1>API Security Posture</h1>
+  <p>Authentication, domain hardening, disclosure programs, and compliance across <strong>{{ site.security | size }}</strong> security records in the APIs.io network</p>
+  <div class="kind-tabs">
+    <span class="kind-tab active" data-kind="">All</span>
+    <span class="kind-tab" data-kind="authentication">Authentication</span>
+    <span class="kind-tab" data-kind="domain-security">Domain Security</span>
+    <span class="kind-tab" data-kind="vulnerability-disclosure">Vuln Disclosure</span>
+    <span class="kind-tab" data-kind="trust-center">Trust Center</span>
+  </div>
+  <div class="filter-bar">
+    <input type="text" class="form-control" id="item-filter" placeholder="Filter by provider…" style="max-width: 400px; margin: 0 auto;">
+  </div>
+</div>
+
+<div class="item-list" id="item-list">
+  {% for s in site.security %}
+  <div class="item-row" data-name="{{ s.name | downcase }} {{ s.provider_name | downcase }}" data-kind="{{ s.kind }}">
+    <h3><a href="{{ s.url }}">{{ s.provider_name }}</a><span class="kchip k-{{ s.kind }}">{{ s.kind | replace: '-', ' ' }}</span></h3>
+    <div class="item-provider"><a href="https://apis.io/providers/{{ s.provider_slug }}/">{{ s.provider_name }}</a></div>
+    <div class="item-stats">{{ s.summary_line }}</div>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+(function () {
+  var q = '', kind = '';
+  function apply() {
+    document.querySelectorAll('.item-row').forEach(function (item) {
+      var okName = item.getAttribute('data-name').indexOf(q) !== -1;
+      var okKind = !kind || item.getAttribute('data-kind') === kind;
+      item.style.display = (okName && okKind) ? '' : 'none';
+    });
+  }
+  document.getElementById('item-filter').addEventListener('input', function () {
+    q = this.value.toLowerCase(); apply();
+  });
+  document.querySelectorAll('.kind-tab').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      document.querySelectorAll('.kind-tab').forEach(function (t) { t.classList.remove('active'); });
+      this.classList.add('active');
+      kind = this.getAttribute('data-kind'); apply();
+    });
+  });
+})();
+</script>
