@@ -1,0 +1,37 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: selenium.dev
+  spf: true
+hosts:
+- cert_expires: Sep 20 14:29:51 2026 GMT
+  host: www.selenium.dev
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Selenium Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Selenium, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Selenium
+provider_slug: selenium
+slug: selenium-domain-security
+source_filename: selenium-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.selenium.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 14:29:51 2026 GMT\n  hsts: false\ndomains:\n- domain: selenium.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/security/selenium-domain-security.yml
+summary_line: TLSv1.3
+tags:
+- Automation
+- Browsers
+- End-To-End Testing
+- Quality Assurance
+- Testing
+- WebDriver
+---

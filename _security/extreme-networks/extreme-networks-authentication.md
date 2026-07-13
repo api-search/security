@@ -1,0 +1,51 @@
+---
+api_key_in: []
+api_specs:
+- filename: extremecloud-iq-openapi.yml
+  format: yaml
+  label: ExtremeCloud IQ API
+  slug: extremecloud-iq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/openapi/extremecloud-iq-openapi.yml
+auth_types:
+- http
+description: ''
+kind: authentication
+layout: security
+method: derived
+name: Extreme Networks Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: Extreme Networks secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Extreme Networks
+provider_slug: extreme-networks
+scheme_count: 1
+schemes:
+- bearerFormat: JWT
+  description: JSON Web Token (JWT) based authentication
+  name: BearerAuth
+  scheme: bearer
+  sources:
+  - openapi/extremecloud-iq-openapi.yml
+  type: http
+slug: extreme-networks-authentication
+source_filename: extreme-networks-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/extremecloud-iq-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JSON Web Token (JWT) based authentication\n  sources:\n  - openapi/extremecloud-iq-openapi.yml\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/authentication/extreme-networks-authentication.yml
+summary_line: http · 1 scheme
+tags:
+- Networking
+- Wireless
+- Wired
+- Switching
+- Wi-Fi
+- Wi-Fi 7
+- Cloud Management
+- SD-WAN
+- Network Security
+- Network Management
+- AI Networking
+- Enterprise
+---

@@ -1,0 +1,77 @@
+---
+api_specs:
+- filename: layercode-openapi.yml
+  format: yaml
+  label: Layercode Agents API
+  slug: layercode-agents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-openapi.yml
+- filename: layercode-openapi.yml
+  format: yaml
+  label: Layercode Sessions API
+  slug: layercode-sessions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/openapi/layercode-openapi.yml
+- filename: layercode-asyncapi.yml
+  format: yaml
+  label: Layercode Realtime Voice API
+  slug: layercode-realtime-voice-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/asyncapi/layercode-asyncapi.yml
+- filename: layercode-asyncapi.yml
+  format: yaml
+  label: Layercode Webhooks API
+  slug: layercode-webhooks-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/asyncapi/layercode-asyncapi.yml
+description: ''
+domains:
+- caa:
+  - 0 iodef "mailto:security@layercode.com"
+  - 0 issue "comodoca.com"
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog; cansignhttpexchanges=yes"
+  - 0 issue "ssl.com"
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: true
+  domain: layercode.com
+  spf: true
+hosts:
+- cert_expires: Oct  9 13:41:34 2026 GMT
+  host: layercode.com
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Aug  9 02:51:11 2026 GMT
+  host: docs.layercode.com
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- host: api.layercode.com
+  https: false
+kind: domain-security
+layout: security
+method: probed
+name: Layercode Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Layercode, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+provider_name: Layercode
+provider_slug: layercode
+slug: layercode-domain-security
+source_filename: layercode-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: layercode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:41:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.layercode.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  9 02:51:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.layercode.com\n  https: false\ndomains:\n- domain: layercode.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:security@layercode.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/security/layercode-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+tags:
+- AI
+- Voice
+- Voice Agents
+- Realtime
+- Low Latency
+---

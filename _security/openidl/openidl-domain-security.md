@@ -1,0 +1,37 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: reject
+  dnssec: false
+  domain: openidl.org
+  spf: false
+hosts:
+- cert_expires: Sep  6 18:54:28 2026 GMT
+  host: openidl.org
+  hsts: true
+  hsts_max_age: 300
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Openidl Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for openIDL, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
+provider_name: openIDL
+provider_slug: openidl
+slug: openidl-domain-security
+source_filename: openidl-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openidl.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 18:54:28 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: openidl.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openidl/refs/heads/main/security/openidl-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Blockchain
+- Data
+- Insurance
+- Linux Foundation
+---

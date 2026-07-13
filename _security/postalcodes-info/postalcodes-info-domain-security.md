@@ -1,0 +1,45 @@
+---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: PostalCodes.info Postal Code Reference API
+  slug: postal-code-reference-api
+  spec_type: OpenAPI
+  url: https://postalcodes.info/openapi.json
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: postalcodes.info
+  spf: true
+hosts:
+- cert_expires: Aug 26 14:29:10 2026 GMT
+  host: postalcodes.info
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Postalcodes Info Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for PostalCodes.info, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: PostalCodes.info
+provider_slug: postalcodes-info
+slug: postalcodes-info-domain-security
+source_filename: postalcodes-info-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: postalcodes.info\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 14:29:10 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: postalcodes.info\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postalcodes-info/refs/heads/main/security/postalcodes-info-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Postal Codes
+- Geocoding
+- Open Data
+- Address Validation
+- Logistics
+---

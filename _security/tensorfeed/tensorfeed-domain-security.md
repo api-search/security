@@ -1,0 +1,34 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: tensorfeed.ai
+  spf: true
+hosts:
+- cert_expires: Aug 28 02:23:28 2026 GMT
+  host: tensorfeed.ai
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Tensorfeed Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for TensorFeed, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: TensorFeed
+provider_slug: tensorfeed
+slug: tensorfeed-domain-security
+source_filename: tensorfeed-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tensorfeed.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 02:23:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tensorfeed.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorfeed/refs/heads/main/security/tensorfeed-domain-security.yml
+summary_line: TLSv1.3 · HSTS
+tags:
+- Machine Learning
+- Public APIs
+---
