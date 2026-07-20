@@ -33,7 +33,7 @@ provider_name: Doctly
 provider_slug: doctly-ai
 scheme_count: 1
 schemes:
-- description: 'Bearer API key, sent as `Authorization: Bearer YOUR_API_KEY`.'
+- description: 'Bearer API key, sent as `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -43,7 +43,7 @@ slug: doctly-ai-authentication
 source_filename: doctly-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/doctly-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer API key, sent as `Authorization: Bearer YOUR_API_KEY`.'\n  sources:\n  - openapi/doctly-ai-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/doctly-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer API key, sent as `Authorization: Bearer [example key]`.'\n  sources:\n  - openapi/doctly-ai-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doctly-ai/refs/heads/main/authentication/doctly-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:

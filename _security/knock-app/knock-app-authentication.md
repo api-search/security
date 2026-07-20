@@ -90,7 +90,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Knock App Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -121,8 +121,8 @@ slug: knock-app-authentication
 source_filename: knock-app-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/knock-audiences-api-openapi.yml, openapi/knock-bulk-operations-api-openapi.yml,\n  openapi/knock-channels-api-openapi.yml, openapi/knock-integrations-api-openapi.yml, openapi/knock-management-api-openapi.yml,\n  openapi/knock-messages-api-openapi.yml, openapi/knock-notify-api-openapi.yml, openapi/knock-objects-api-openapi.yml,\n  openapi/knock-providers-api-openapi.yml, openapi/knock-schedules-api-openapi.yml, openapi/knock-tenants-api-openapi.yml,\n  openapi/knock-users-api-openapi.yml ...\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Knock API key as a Bearer token. Use a public key (pk_...) for client-side requests\n    or a secret key (sk_...) for server-side.\n  sources:\n  - openapi/knock-audiences-api-openapi.yml\n  - openapi/knock-bulk-operations-api-openapi.yml\n  - openapi/knock-channels-api-openapi.yml\n  - openapi/knock-integrations-api-openapi.yml\n\
-  \  - openapi/knock-management-api-openapi.yml\n  - openapi/knock-messages-api-openapi.yml\n  - openapi/knock-notify-api-openapi.yml\n  - openapi/knock-objects-api-openapi.yml\n  - openapi/knock-providers-api-openapi.yml\n  - openapi/knock-schedules-api-openapi.yml\n  - openapi/knock-tenants-api-openapi.yml\n  - openapi/knock-users-api-openapi.yml\n  - openapi/knock-workflows-api-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\ndocs: https://docs.knock.app/api-reference/overview/authentication\nenhanced_security: Client-side requests can be signed with a JWT user token (X-Knock-User-Token) in enhanced-security mode; server tokens (service tokens) authenticate the Management API. See https://docs.knock.app/developer-tools/service-tokens\nsource: openapi/knock-audiences-api-openapi.yml, openapi/knock-bulk-operations-api-openapi.yml,\n  openapi/knock-channels-api-openapi.yml, openapi/knock-integrations-api-openapi.yml, openapi/knock-management-api-openapi.yml,\n  openapi/knock-messages-api-openapi.yml, openapi/knock-notify-api-openapi.yml, openapi/knock-objects-api-openapi.yml,\n  openapi/knock-providers-api-openapi.yml, openapi/knock-schedules-api-openapi.yml, openapi/knock-tenants-api-openapi.yml,\n  openapi/knock-users-api-openapi.yml ...\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Knock API\
+  \ key as a Bearer token. Use a public key (pk_...) for client-side requests\n    or a secret key (sk_...) for server-side.\n  sources:\n  - openapi/knock-audiences-api-openapi.yml\n  - openapi/knock-bulk-operations-api-openapi.yml\n  - openapi/knock-channels-api-openapi.yml\n  - openapi/knock-integrations-api-openapi.yml\n  - openapi/knock-management-api-openapi.yml\n  - openapi/knock-messages-api-openapi.yml\n  - openapi/knock-notify-api-openapi.yml\n  - openapi/knock-objects-api-openapi.yml\n  - openapi/knock-providers-api-openapi.yml\n  - openapi/knock-schedules-api-openapi.yml\n  - openapi/knock-tenants-api-openapi.yml\n  - openapi/knock-users-api-openapi.yml\n  - openapi/knock-workflows-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/authentication/knock-app-authentication.yml
 summary_line: http · 1 scheme
 tags:

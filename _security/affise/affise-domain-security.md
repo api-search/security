@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: affise-postman-api-collection
+  format: yaml
+  label: Affise Performance API
+  slug: affise-performance-api
+  spec_type: Postman
+  url: https://github.com/affise/affise-postman-api-collection
 description: ''
 domains:
 - caa:

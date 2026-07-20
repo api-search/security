@@ -28,7 +28,7 @@ provider_slug: aligned-news
 scheme_count: 1
 schemes:
 - bearerFormat: alnw_*
-  description: API key issued from https://alignednews.com/account, presented as Authorization Bearer alnw_...
+  description: API key issued from https://alignednews.com/account, presented as Authorization Bearer [example key]
   name: bearerAuth
   scheme: bearer
   sources:
@@ -38,7 +38,7 @@ slug: aligned-news-authentication
 source_filename: aligned-news-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aligned-news-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: alnw_*\n  description: API key issued from https://alignednews.com/account, presented as Authorization\n    Bearer alnw_...\n  sources:\n  - openapi/aligned-news-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aligned-news-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: alnw_*\n  description: API key issued from https://alignednews.com/account, presented as Authorization\n    Bearer [example key]\n  sources:\n  - openapi/aligned-news-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/authentication/aligned-news-authentication.yml
 summary_line: http · 1 scheme
 tags:

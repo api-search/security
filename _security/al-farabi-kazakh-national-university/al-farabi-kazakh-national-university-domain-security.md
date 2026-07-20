@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: al-farabi-kazakh-national-university-open-edx.yaml
-  format: yaml
+- filename: swagger.json
+  format: json
   label: KazNU Open edX API
   slug: kaznu-open-edx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/openapi/al-farabi-kazakh-national-university-open-edx.yaml
+  url: https://open.kaznu.kz/swagger.json
 description: ''
 domains:
 - caa: []

@@ -6,6 +6,12 @@ api_specs:
   slug: application-api
   spec_type: OpenAPI
   url: https://www.chatwoot.com/swagger/swagger.json
+- filename: chatwoot-platform-apis
+  format: yaml
+  label: Chatwoot Platform API
+  slug: platform-api
+  spec_type: Postman
+  url: https://www.postman.com/chatwoot/chatwoot-apis/documentation/m2zyu6l/chatwoot-platform-apis
 description: ''
 domains:
 - caa: []

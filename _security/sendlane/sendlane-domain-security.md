@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: sendlane-api
+  format: yaml
+  label: Sendlane API
+  slug: sendlane-api
+  spec_type: Postman
+  url: https://www.postman.com/sendlane/sendlane-s-public-workspace/documentation/xl7jbbs/sendlane-api
 description: ''
 domains:
 - caa: []

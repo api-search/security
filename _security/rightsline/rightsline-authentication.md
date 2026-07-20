@@ -1,6 +1,19 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: postman.yaml
+  format: yaml
+  label: Rightsline Rights API
+  slug: rights-api
+  spec_type: Postman
+  url: https://postman.rightsline.com/
+- filename: postman.yaml
+  format: yaml
+  label: Rightsline Royalties API
+  slug: royalties-api
+  spec_type: Postman
+  url: https://postman.rightsline.com/
 auth_types:
 - apiKey
 description: ''

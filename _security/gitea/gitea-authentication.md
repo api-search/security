@@ -3,12 +3,12 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: swagger.v1.json
-  format: json
+- filename: swagger
+  format: yaml
   label: Gitea REST API
   slug: gitea-rest-api
   spec_type: OpenAPI
-  url: https://demo.gitea.com/swagger.v1.json
+  url: https://demo.gitea.com/api/swagger
 auth_types:
 - apiKey
 - http

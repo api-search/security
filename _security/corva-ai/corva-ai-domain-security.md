@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: index.html
+  format: yaml
+  label: Corva Data API
+  slug: corva-data-api
+  spec_type: OpenAPI
+  url: https://api.corva.ai/documentation/index.html
 description: ''
 domains:
 - caa: []

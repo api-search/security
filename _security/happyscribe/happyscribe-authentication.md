@@ -57,7 +57,7 @@ provider_name: Happy Scribe
 provider_slug: happyscribe
 scheme_count: 1
 schemes:
-- description: 'API token from your Happy Scribe account settings, passed as `Authorization: Bearer YOUR_API_TOKEN`.'
+- description: 'API token from your Happy Scribe account settings, passed as `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -67,7 +67,7 @@ slug: happyscribe-authentication
 source_filename: happyscribe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/happyscribe-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API token from your Happy Scribe account settings, passed as `Authorization:\n    Bearer YOUR_API_TOKEN`.'\n  sources:\n  - openapi/happyscribe-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/happyscribe-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API token from your Happy Scribe account settings, passed as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/happyscribe-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/authentication/happyscribe-authentication.yml
 summary_line: http · 1 scheme
 tags:

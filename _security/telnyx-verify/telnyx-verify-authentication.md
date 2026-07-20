@@ -34,7 +34,7 @@ provider_slug: telnyx-verify
 scheme_count: 1
 schemes:
 - bearerFormat: API key
-  description: 'Telnyx API v2 key passed as `Authorization: Bearer YOUR_API_KEY`. Create and manage keys in the Telnyx Mission Control Portal under Auth / API Keys (portal.telnyx.com). The same key authenticates Verify, Verify Profiles, and Number Lookup as well as the rest of the Telnyx API v2 surface.'
+  description: 'Telnyx API v2 key passed as `Authorization: Bearer [example key]`. Create and manage keys in the Telnyx Mission Control Portal under Auth / API Keys (portal.telnyx.com). The same key authenticates Verify, Verify Profiles, and Number Lookup as well as the rest of the Telnyx API v2 surface.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -44,7 +44,7 @@ slug: telnyx-verify-authentication
 source_filename: telnyx-verify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/telnyx-verify-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API key\n  description: 'Telnyx API v2 key passed as `Authorization: Bearer YOUR_API_KEY`. Create\n    and manage keys in the Telnyx Mission Control Portal under Auth / API Keys\n    (portal.telnyx.com). The same key authenticates Verify, Verify Profiles, and\n    Number Lookup as well as the rest of the Telnyx API v2 surface.'\n  sources:\n  - openapi/telnyx-verify-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/telnyx-verify-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API key\n  description: 'Telnyx API v2 key passed as `Authorization: Bearer [example key]`. Create\n    and manage keys in the Telnyx Mission Control Portal under Auth / API Keys\n    (portal.telnyx.com). The same key authenticates Verify, Verify Profiles, and\n    Number Lookup as well as the rest of the Telnyx API v2 surface.'\n  sources:\n  - openapi/telnyx-verify-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telnyx-verify/refs/heads/main/authentication/telnyx-verify-authentication.yml
 summary_line: http · 1 scheme
 tags:

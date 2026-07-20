@@ -70,7 +70,7 @@ provider_name: Codat
 provider_slug: codat-io
 scheme_count: 1
 schemes:
-- description: 'Codat expects your API key Base64-encoded and sent in the Authorization header using the Basic scheme, for example: `Authorization: Basic YOUR_BASE64_ENCODED_API_KEY`.'
+- description: 'Codat expects your API key Base64-encoded and sent in the Authorization header using the Basic scheme, for example: `Authorization: Basic [example key]`.'
   in: header
   name: authHeader
   parameter: Authorization
@@ -81,7 +81,7 @@ slug: codat-io-authentication
 source_filename: codat-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/codat-io-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: authHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Codat expects your API key Base64-encoded and sent in the Authorization header\n    using the Basic scheme, for example: `Authorization: Basic YOUR_BASE64_ENCODED_API_KEY`.'\n  sources:\n  - openapi/codat-io-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/codat-io-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: authHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Codat expects your API key Base64-encoded and sent in the Authorization header\n    using the Basic scheme, for example: `Authorization: Basic [example key]`.'\n  sources:\n  - openapi/codat-io-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/authentication/codat-io-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

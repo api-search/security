@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: memberful.postman_collection.json
+  format: json
+  label: Memberful Members API
+  slug: memberful-members-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/collections/memberful.postman_collection.json
+- filename: memberful.postman_collection.json
+  format: json
+  label: Memberful Subscriptions API
+  slug: memberful-subscriptions-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/collections/memberful.postman_collection.json
+- filename: memberful.postman_collection.json
+  format: json
+  label: Memberful Plans and Passes API
+  slug: memberful-plans-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/collections/memberful.postman_collection.json
+- filename: memberful.postman_collection.json
+  format: json
+  label: Memberful Orders API
+  slug: memberful-orders-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/memberful/refs/heads/main/collections/memberful.postman_collection.json
 description: ''
 domains:
 - caa: []

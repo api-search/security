@@ -60,7 +60,7 @@ schemes:
   - https://doc.enrich.so/authentication-1951026m0
   - openapi/enrich-so-openapi.yml
   type: apiKey
-- description: 'The same API key may alternatively be sent as an Authorization Bearer token (Authorization: Bearer sk_...).'
+- description: 'The same API key may alternatively be sent as an Authorization Bearer token (Authorization: Bearer [example key]).'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -71,7 +71,7 @@ slug: enrich-so-authentication
 source_filename: enrich-so-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/enrich-so-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  keyName: x-api-key\n  description: >-\n    API key passed in the x-api-key header (recommended). Keys are created and managed in\n    the Enrich dashboard at https://dash.enrich.so/dashboard/api-keys and are prefixed with\n    sk_ (for example sk_prod_...). A missing, invalid, or disabled key returns 401.\n  sources:\n  - https://doc.enrich.so/authentication-1951026m0\n  - openapi/enrich-so-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    The same API key may alternatively be sent as an Authorization Bearer token\n    (Authorization: Bearer sk_...).\n  sources:\n  - https://doc.enrich.so/authentication-1951026m0\n  - openapi/enrich-so-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/enrich-so-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  keyName: x-api-key\n  description: >-\n    API key passed in the x-api-key header (recommended). Keys are created and managed in\n    the Enrich dashboard at https://dash.enrich.so/dashboard/api-keys and are prefixed with\n    sk_ (for example sk_prod_...). A missing, invalid, or disabled key returns 401.\n  sources:\n  - https://doc.enrich.so/authentication-1951026m0\n  - openapi/enrich-so-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    The same API key may alternatively be sent as an Authorization Bearer token\n    (Authorization: Bearer [example key]).\n  sources:\n  - https://doc.enrich.so/authentication-1951026m0\n  - openapi/enrich-so-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/authentication/enrich-so-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

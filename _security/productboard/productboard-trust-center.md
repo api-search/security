@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: productboard-openapi.yml
+- filename: productboard-api-reference
   format: yaml
   label: Productboard Public API
   slug: public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/productboard/refs/heads/main/openapi/productboard-openapi.yml
+  spec_type: Postman
+  url: https://www.postman.com/pb-stargate/productboard-public-api/documentation/cpzbdpj/productboard-api-reference
 certifications:
 - SOC 2
 - ISO 27001

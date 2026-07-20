@@ -12,7 +12,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Microsoft Excel Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -36,7 +36,7 @@ slug: microsoft-excel-authentication
 source_filename: microsoft-excel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-excel-graph-api.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 2\n  description: OAuth 2.0 authorization using Microsoft Identity Platform\n  sources:\n  - openapi/microsoft-excel-graph-api.yaml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microsoft-excel-graph-api.yaml\ndocs: https://learn.microsoft.com/en-us/graph/auth/\nnote: >-\n  OAuth 2.0 via the Microsoft identity platform (Microsoft Entra ID). Delegated\n  (authorization code / PKCE) and app-only (client credentials) flows are supported; Excel\n  workbook access requires Files.* / Sites.* scopes (see scopes/). Tokens are acquired from\n  login.microsoftonline.com and presented as Bearer tokens on graph.microsoft.com.\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 2\n  description: OAuth 2.0 authorization using Microsoft Identity Platform\n  sources:\n  - openapi/microsoft-excel-graph-api.yaml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/authentication/microsoft-excel-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

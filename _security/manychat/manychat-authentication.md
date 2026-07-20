@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: manychat-openapi.yml
+- filename: swagger
   format: yaml
   label: ManyChat REST API
   slug: rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-openapi.yml
+  url: https://api.manychat.com/swagger
 auth_types:
 - http
 description: ''

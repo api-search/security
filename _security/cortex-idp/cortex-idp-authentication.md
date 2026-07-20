@@ -52,7 +52,7 @@ provider_slug: cortex-idp
 scheme_count: 1
 schemes:
 - bearerFormat: JWT
-  description: 'API key created in the Settings page of your Cortex workspace. Passed as `Authorization: Bearer YOUR_API_KEY`. Cortex API keys are scoped by role and permissions; some operations require specific permissions such as "Edit entities" or "Configure integrations".'
+  description: 'API key created in the Settings page of your Cortex workspace. Passed as `Authorization: Bearer [example key]`. Cortex API keys are scoped by role and permissions; some operations require specific permissions such as "Edit entities" or "Configure integrations".'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -63,7 +63,7 @@ slug: cortex-idp-authentication
 source_filename: cortex-idp-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cortex-idp-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'API key created in the Settings page of your Cortex workspace. Passed\n    as `Authorization: Bearer YOUR_API_KEY`. Cortex API keys are scoped by role and\n    permissions; some operations require specific permissions such as \"Edit entities\"\n    or \"Configure integrations\".'\n  sources:\n  - https://docs.cortex.io/api\n  - openapi/cortex-idp-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cortex-idp-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'API key created in the Settings page of your Cortex workspace. Passed\n    as `Authorization: Bearer [example key]`. Cortex API keys are scoped by role and\n    permissions; some operations require specific permissions such as \"Edit entities\"\n    or \"Configure integrations\".'\n  sources:\n  - https://docs.cortex.io/api\n  - openapi/cortex-idp-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/authentication/cortex-idp-authentication.yml
 summary_line: http · 1 scheme
 tags:

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: shareworks-shareworks-public-api-openapi.yml
+- filename: postman.yaml
   format: yaml
   label: Shareworks Public API
   slug: shareworks-public-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/openapi/shareworks-shareworks-public-api-openapi.yml
+  spec_type: Postman
+  url: https://www.postman.com/
 description: ''
 domains:
 - caa: []

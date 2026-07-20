@@ -64,7 +64,7 @@ provider_slug: up42
 scheme_count: 1
 schemes:
 - bearerFormat: JWT
-  description: 'OAuth2 Bearer access token. Obtain a token from a UP42 API key or account credentials via https://auth.up42.com/realms/public/protocol/openid-connect/token (client_id up42-api). Access tokens are short-lived (about 5 minutes); refresh as needed. Pass as `Authorization: Bearer YOUR_ACCESS_TOKEN`.'
+  description: 'OAuth2 Bearer access token. Obtain a token from a UP42 API key or account credentials via https://auth.up42.com/realms/public/protocol/openid-connect/token (client_id up42-api). Access tokens are short-lived (about 5 minutes); refresh as needed. Pass as `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -74,7 +74,7 @@ slug: up42-authentication
 source_filename: up42-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/up42-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'OAuth2 Bearer access token. Obtain a token from a UP42 API key or account credentials\n    via https://auth.up42.com/realms/public/protocol/openid-connect/token (client_id up42-api).\n    Access tokens are short-lived (about 5 minutes); refresh as needed. Pass as `Authorization:\n    Bearer YOUR_ACCESS_TOKEN`.'\n  sources:\n  - openapi/up42-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/up42-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'OAuth2 Bearer access token. Obtain a token from a UP42 API key or account credentials\n    via https://auth.up42.com/realms/public/protocol/openid-connect/token (client_id up42-api).\n    Access tokens are short-lived (about 5 minutes); refresh as needed. Pass as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/up42-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/up42/refs/heads/main/authentication/up42-authentication.yml
 summary_line: http · 1 scheme
 tags:

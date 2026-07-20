@@ -29,7 +29,7 @@ provider_name: Testmail
 provider_slug: testmail-app
 scheme_count: 2
 schemes:
-- description: 'API key as Bearer token. Obtain from the Testmail developer console and pass as: Authorization: Bearer YOUR_API_KEY'
+- description: 'API key as Bearer token. Obtain from the Testmail developer console and pass as: Authorization: Bearer [example key]'
   name: BearerAuth
   scheme: bearer
   sources:
@@ -46,7 +46,7 @@ slug: testmail-app-authentication
 source_filename: testmail-app-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/testmail-app-graphql-api-openapi.yml, openapi/testmail-app-json-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key as Bearer token. Obtain from the Testmail developer console and pass\n    as: Authorization: Bearer YOUR_API_KEY'\n  sources:\n  - openapi/testmail-app-graphql-api-openapi.yml\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key retrieved from the Testmail developer console.\n  sources:\n  - openapi/testmail-app-json-api-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/testmail-app-graphql-api-openapi.yml, openapi/testmail-app-json-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - query\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key as Bearer token. Obtain from the Testmail developer console and pass\n    as: Authorization: Bearer [example key]'\n  sources:\n  - openapi/testmail-app-graphql-api-openapi.yml\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key retrieved from the Testmail developer console.\n  sources:\n  - openapi/testmail-app-json-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testmail-app/refs/heads/main/authentication/testmail-app-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

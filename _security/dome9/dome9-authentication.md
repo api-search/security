@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: dome9-openapi.yml
+- filename: dome9-api
   format: yaml
   label: Dome9 API
   slug: dome9-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/openapi/dome9-openapi.yml
+  spec_type: Postman
+  url: https://www.postman.com/dome9-security/workspace/dome9-api
 auth_types:
 - http
 description: ''

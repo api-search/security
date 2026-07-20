@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: leadsquared-openapi.yml
+- filename: postman.yaml
   format: yaml
   label: LeadSquared REST API
   slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leadsquared/refs/heads/main/openapi/leadsquared-openapi.yml
+  spec_type: Postman
+  url: https://apidocs.leadsquared.com/leadsquared-run-in-postman/
 description: ''
 domains:
 - caa: []

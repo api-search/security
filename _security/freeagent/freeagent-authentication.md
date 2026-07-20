@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: freeagent-openapi.yml
+- filename: postman-freeagent-api-collection
   format: yaml
   label: FreeAgent REST API
   slug: rest-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/openapi/freeagent-openapi.yml
+  spec_type: Postman
+  url: https://github.com/fac/postman-freeagent-api-collection
 auth_types:
 - oauth2
 description: ''

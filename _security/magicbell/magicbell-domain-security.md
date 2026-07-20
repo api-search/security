@@ -6,6 +6,12 @@ api_specs:
   slug: rest-api-v2
   spec_type: OpenAPI
   url: https://public.magicbell.com/specs/openapi.v2.json
+- filename: 2sAYdhLAjv
+  format: yaml
+  label: MagicBell REST API v1
+  slug: rest-api-v1
+  spec_type: Postman
+  url: https://documenter.getpostman.com/view/2269098/2sAYdhLAjv
 description: ''
 domains:
 - caa: []

@@ -6,6 +6,12 @@ api_specs:
   slug: polaris
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-polaris-openapi.yml
+- filename: cim-openapi.html
+  format: yaml
+  label: Synopsys Coverity REST API
+  slug: coverity
+  spec_type: OpenAPI
+  url: https://documentation.blackduck.com/bundle/coverity-docs/page/cim-api-docs/openapi/cim-openapi.html
 - filename: synopsys-cloud-openlink-openapi.yml
   format: yaml
   label: Synopsys Cloud OpenLink API

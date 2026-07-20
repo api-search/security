@@ -89,7 +89,7 @@ schemes:
   - openapi/webex-wholesale-openapi.json
   type: oauth2
 - bearerFormat: JWT
-  description: e.g. Bearer YOUR_AUTHORIZATION_TOKEN
+  description: e.g. Bearer [example key]
   name: bearer-key
   scheme: bearer
   sources:
@@ -108,7 +108,7 @@ source_filename: webex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/webex-admin-openapi.json, openapi/webex-broadworks-openapi.json, openapi/webex-cloud-calling-openapi.json,\n  openapi/webex-contact-center-openapi.json, openapi/webex-device-openapi.json, openapi/webex-meeting-openapi.json,\n  openapi/webex-messaging-openapi.json, openapi/webex-ucm-openapi.json, openapi/webex-wholesale-openapi.json\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /\n    tokenUrl: /\n    scopes: 0\n  sources:\n  - openapi/webex-admin-openapi.json\n  - openapi/webex-broadworks-openapi.json\n  - openapi/webex-cloud-calling-openapi.json\n  - openapi/webex-contact-center-openapi.json\n  - openapi/webex-device-openapi.json\n  - openapi/webex-meeting-openapi.json\n  - openapi/webex-messaging-openapi.json\n  - openapi/webex-ucm-openapi.json\n  - openapi/webex-wholesale-openapi.json\n\
-  - name: bearer-key\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: e.g. Bearer YOUR_AUTHORIZATION_TOKEN\n  sources:\n  - openapi/webex-admin-openapi.json\n  - openapi/webex-broadworks-openapi.json\n  - openapi/webex-cloud-calling-openapi.json\n  - openapi/webex-contact-center-openapi.json\n  - openapi/webex-device-openapi.json\n  - openapi/webex-meeting-openapi.json\n  - openapi/webex-messaging-openapi.json\n  - openapi/webex-ucm-openapi.json\n  - openapi/webex-wholesale-openapi.json\n"
+  - name: bearer-key\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: e.g. Bearer [example key]\n  sources:\n  - openapi/webex-admin-openapi.json\n  - openapi/webex-broadworks-openapi.json\n  - openapi/webex-cloud-calling-openapi.json\n  - openapi/webex-contact-center-openapi.json\n  - openapi/webex-device-openapi.json\n  - openapi/webex-meeting-openapi.json\n  - openapi/webex-messaging-openapi.json\n  - openapi/webex-ucm-openapi.json\n  - openapi/webex-wholesale-openapi.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webex/refs/heads/main/authentication/webex-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:

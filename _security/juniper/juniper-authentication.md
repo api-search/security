@@ -20,12 +20,12 @@ api_specs:
   slug: junos-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/openapi/juniper-junos-rest-api-openapi.yml
-- filename: juniper-mist-openapi.yml
+- filename: docs
   format: yaml
   label: Juniper Mist API
   slug: juniper-mist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/openapi/juniper-mist-openapi.yml
+  url: https://api.mist.com/api/v1/docs
 - filename: juniper-contrail-openapi.yml
   format: yaml
   label: Contrail Networking API

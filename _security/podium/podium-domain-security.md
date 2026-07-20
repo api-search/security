@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: podium-s-api-workspace
+  format: yaml
+  label: Podium API
+  slug: podium-api
+  spec_type: Postman
+  url: https://www.postman.com/podiumhq/podium-s-api-workspace
 description: ''
 domains:
 - caa:

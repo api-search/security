@@ -39,7 +39,7 @@ provider_name: FullEnrich
 provider_slug: fullenrich
 scheme_count: 1
 schemes:
-- description: 'Pass your API key from the FullEnrich dashboard as a Bearer token in the Authorization header: `Authorization: Bearer YOUR_API_KEY`.'
+- description: 'Pass your API key from the FullEnrich dashboard as a Bearer token in the Authorization header: `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -49,7 +49,7 @@ slug: fullenrich-authentication
 source_filename: fullenrich-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fullenrich-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Pass your API key from the FullEnrich dashboard as a Bearer token in the Authorization\n    header: `Authorization: Bearer YOUR_API_KEY`.'\n  sources:\n  - openapi/fullenrich-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fullenrich-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Pass your API key from the FullEnrich dashboard as a Bearer token in the Authorization\n    header: `Authorization: Bearer [example key]`.'\n  sources:\n  - openapi/fullenrich-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullenrich/refs/heads/main/authentication/fullenrich-authentication.yml
 summary_line: http · 1 scheme
 tags:

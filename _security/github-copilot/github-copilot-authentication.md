@@ -43,7 +43,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Github Copilot Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -62,7 +62,7 @@ schemes:
 - flows:
   - authorizationUrl: https://github.com/login/oauth/authorize
     flow: authorizationCode
-    scopes: 4
+    scopes: 5
     tokenUrl: https://github.com/login/oauth/access_token
   name: OAuthToken
   sources:
@@ -72,7 +72,8 @@ slug: github-copilot-authentication
 source_filename: github-copilot-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/github-copilot-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: BearerToken\n  type: http\n  scheme: bearer\n  description: Personal access token (classic) with manage_billing:copilot, read:org, or read:enterprise\n    scopes; or fine-grained token with GitHub Copilot Business (read) or Administration (read)\n    permissions.\n  sources:\n  - openapi/github-copilot-openapi.yml\n- name: OAuthToken\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://github.com/login/oauth/authorize\n    tokenUrl: https://github.com/login/oauth/access_token\n    scopes: 4\n  sources:\n  - openapi/github-copilot-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/github-copilot-openapi.yml\ndocs: https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: BearerToken\n  type: http\n  scheme: bearer\n  description: Personal access token (classic) with manage_billing:copilot, read:org, or read:enterprise\n    scopes; or fine-grained token with GitHub Copilot Business (read) or Administration (read)\n    permissions.\n  sources:\n  - openapi/github-copilot-openapi.yml\n- name: OAuthToken\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://github.com/login/oauth/authorize\n    tokenUrl: https://github.com/login/oauth/access_token\n    scopes: 5\n  sources:\n  - openapi/github-copilot-openapi.yml\ntoken_types:\n- Personal access token (classic) — Authorization bearer; carries OAuth scopes (see scopes/github-copilot-scopes.yml).\n\
+  - Fine-grained personal access token — uses org \"GitHub Copilot Business\" (read) and \"Administration\" permissions.\n- OAuth app token / GitHub App installation token — Authorization bearer.\nnotes: >-\n  All GitHub REST requests require a User-Agent header and send the bearer token\n  in the Authorization header. Docs:\n  https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api\n  and https://docs.github.com/en/rest/copilot/copilot-user-management for the\n  Copilot per-endpoint permission matrix.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/authentication/github-copilot-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:

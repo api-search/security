@@ -33,7 +33,7 @@ provider_name: Zeffy
 provider_slug: zeffy
 scheme_count: 1
 schemes:
-- description: 'Per-organization API key generated under Settings then Integrations, sent as "Authorization: Bearer YOUR_API_KEY".'
+- description: 'Per-organization API key generated under Settings then Integrations, sent as "Authorization: Bearer [example key]".'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -43,7 +43,7 @@ slug: zeffy-authentication
 source_filename: zeffy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zeffy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Per-organization API key generated under Settings then Integrations, sent as\n    \"Authorization: Bearer YOUR_API_KEY\".'\n  sources:\n  - openapi/zeffy-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zeffy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Per-organization API key generated under Settings then Integrations, sent as\n    \"Authorization: Bearer [example key]\".'\n  sources:\n  - openapi/zeffy-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zeffy/refs/heads/main/authentication/zeffy-authentication.yml
 summary_line: http · 1 scheme
 tags:

@@ -32,7 +32,7 @@ slug: keycloak-authentication
 source_filename: keycloak-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/keycloak-admin-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Access token obtained from the Keycloak token endpoint. Use the master realm\n    admin credentials or a service account with appropriate realm-management roles.\n  sources:\n  - openapi/keycloak-admin-rest-api-openapi.yml\n"
+source_yaml: "generated: '2026-07-16'\nmethod: derived\nsource: openapi/keycloak-admin-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Access token obtained from the Keycloak token endpoint. Use the master realm\n    admin credentials or a service account with appropriate realm-management roles.\n  sources:\n  - openapi/keycloak-admin-rest-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keycloak/refs/heads/main/authentication/keycloak-authentication.yml
 summary_line: http · 1 scheme
 tags:

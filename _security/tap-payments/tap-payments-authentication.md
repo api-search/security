@@ -69,7 +69,7 @@ provider_name: Tap Payments
 provider_slug: tap-payments
 scheme_count: 1
 schemes:
-- description: 'Secret API key passed as a Bearer token: `Authorization: Bearer sk_test_...` (test) or `Authorization: Bearer sk_live_...` (live). Keys are issued from the Tap dashboard, with separate keys per mode. The secret key must remain server-side; a publishable key (pk_test_ / pk_live_) is used for client-side tokenization only.'
+- description: 'Secret API key passed as a Bearer token: `Authorization: Bearer [example key]` (test) or `Authorization: Bearer [example key]` (live). Keys are issued from the Tap dashboard, with separate keys per mode. The secret key must remain server-side; a publishable key (pk_test_ / pk_live_) is used for client-side tokenization only.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -80,7 +80,7 @@ slug: tap-payments-authentication
 source_filename: tap-payments-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/tap-payments-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Secret API key passed as a Bearer token: `Authorization: Bearer sk_test_...`\n    (test) or `Authorization: Bearer sk_live_...` (live). Keys are issued from the\n    Tap dashboard, with separate keys per mode. The secret key must remain\n    server-side; a publishable key (pk_test_ / pk_live_) is used for client-side\n    tokenization only.'\n  sources:\n  - openapi/tap-payments-openapi.yml\n  - https://developers.tap.company/reference/api-endpoint\n"
+source_yaml: "generated: '2026-07-12'\nmethod: derived\nsource: openapi/tap-payments-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Secret API key passed as a Bearer token: `Authorization: Bearer [example key]`\n    (test) or `Authorization: Bearer [example key]` (live). Keys are issued from the\n    Tap dashboard, with separate keys per mode. The secret key must remain\n    server-side; a publishable key (pk_test_ / pk_live_) is used for client-side\n    tokenization only.'\n  sources:\n  - openapi/tap-payments-openapi.yml\n  - https://developers.tap.company/reference/api-endpoint\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tap-payments/refs/heads/main/authentication/tap-payments-authentication.yml
 summary_line: http · 1 scheme
 tags:

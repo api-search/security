@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: swagger.json
+  format: json
+  label: NPR Listening
+  slug: listening
+  spec_type: OpenAPI
+  url: https://listening.api.npr.org/v2/swagger.json
 - filename: npr-station-finder-openapi-original.yml
   format: yaml
   label: NPR Station Finder

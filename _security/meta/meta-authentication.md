@@ -9,21 +9,22 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-openapi.yml
 auth_types:
 - oauth2
-description: ''
+description: Meta authenticates with OAuth 2.0 access tokens (Facebook Login). The scheme in openapi/meta-openapi.yml is oauth2 (implicit flow); the docs describe four token types below. Tokens carry granted permissions (scopes/meta-scopes.yml) and can be inspected with the Access Token Debugger.
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Meta Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
-overview: Meta secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
+- authorizationCode
+overview: Meta secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit and authorizationCode flow(s).
 provider_name: Meta
 provider_slug: meta
 scheme_count: 1
 schemes:
 - flows:
-  - authorizationUrl: https://www.facebook.com/v22.0/dialog/oauth
+  - authorizationUrl: https://www.facebook.com/v25.0/dialog/oauth
     flow: implicit
     scopes: 1
   name: userAccessToken
@@ -34,7 +35,8 @@ slug: meta-authentication
 source_filename: meta-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/meta-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: userAccessToken\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://www.facebook.com/v22.0/dialog/oauth\n    scopes: 1\n  sources:\n  - openapi/meta-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/meta-openapi.yml\ndocs:\n  - https://developers.facebook.com/docs/facebook-login\n  - https://developers.facebook.com/docs/facebook-login/guides/access-tokens\ndescription: >-\n  Meta authenticates with OAuth 2.0 access tokens (Facebook Login). The scheme\n  in openapi/meta-openapi.yml is oauth2 (implicit flow); the docs describe four\n  token types below. Tokens carry granted permissions (scopes/meta-scopes.yml)\n  and can be inspected with the Access Token Debugger.\nsummary:\n  types:\n    - oauth2\n  oauth2_flows:\n    - implicit\n    - authorizationCode\ntoken_types:\n  - {name: User access token, use: Act on behalf of a user; short- or long-lived.}\n  - {name: Page access token, use: Act on behalf of a Page the user manages; derived from a User token.}\n  - {name: App access token, use: Server-to-server app-level calls; app_id|app_secret.}\n  - {name: Client access token, use: Limited client-side app identification.}\n\
+  schemes:\n  - name: userAccessToken\n    type: oauth2\n    flows:\n      - flow: implicit\n        authorizationUrl: https://www.facebook.com/v25.0/dialog/oauth\n        scopes: 1\n    sources:\n      - openapi/meta-openapi.yml\ntools:\n  - {name: Access Token Debugger, url: https://developers.facebook.com/tools/debug/accesstoken/}\nnotes: >-\n  Passed as the access_token query parameter or an Authorization: Bearer header.\n  Long-lived user tokens (~60 days) are exchanged from short-lived tokens.\n  Server-side calls should include appsecret_proof. See scopes/meta-scopes.yml\n  for permissions.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/authentication/meta-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

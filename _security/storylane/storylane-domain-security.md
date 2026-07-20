@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: storylane
+  format: yaml
+  label: Storylane External API
+  slug: storylane-external-api
+  spec_type: Postman
+  url: https://www.postman.com/storylane
 description: ''
 domains:
 - caa: []

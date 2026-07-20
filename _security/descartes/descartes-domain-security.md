@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: macropoint-telematics
+  format: yaml
+  label: Descartes MacroPoint Carrier Integration API
+  slug: descartes-macropoint-carrier-api
+  spec_type: Postman
+  url: https://www.postman.com/macropoint-telematics
 description: ''
 domains:
 - caa: []

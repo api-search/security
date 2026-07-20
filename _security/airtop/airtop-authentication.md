@@ -51,7 +51,7 @@ provider_name: Airtop
 provider_slug: airtop
 scheme_count: 1
 schemes:
-- description: 'Airtop API key supplied as a Bearer token in the Authorization header: `Authorization: Bearer YOUR_API_KEY`.'
+- description: 'Airtop API key supplied as a Bearer token in the Authorization header: `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -61,7 +61,7 @@ slug: airtop-authentication
 source_filename: airtop-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/airtop-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Airtop API key supplied as a Bearer token in the Authorization header: `Authorization:\n    Bearer YOUR_API_KEY`.'\n  sources:\n  - openapi/airtop-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/airtop-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Airtop API key supplied as a Bearer token in the Authorization header: `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/airtop-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/authentication/airtop-authentication.yml
 summary_line: http · 1 scheme
 tags:

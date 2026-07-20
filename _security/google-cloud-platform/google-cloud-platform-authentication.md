@@ -224,7 +224,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Google Cloud Platform Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -255,7 +255,8 @@ slug: google-cloud-platform-authentication
 source_filename: google-cloud-platform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloud-resource-manager-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  description: OAuth 2.0 authentication using Google Cloud service accounts or user credentials.\n    Supports both service-to-service and end-user authentication flows.\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key for identifying the calling project.\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/cloud-resource-manager-openapi.yml\ndocs: https://cloud.google.com/docs/authentication\noidc_discovery: well-known/google-cloud-platform-openid-configuration.json\nnotes: >-\n  Google Cloud authenticates with OAuth 2.0 access tokens minted for either an\n  end user (3-legged) or a service account (2-legged, via signed JWT or\n  Application Default Credentials / Workload Identity Federation). The optional\n  API key (query `key`) only identifies the calling project and does not grant\n  authorization. OIDC discovery confirmed live at accounts.google.com (200).\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  description: OAuth 2.0 authentication\
+  \ using Google Cloud service accounts or user credentials.\n    Supports both service-to-service and end-user authentication flows.\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key for identifying the calling project.\n  sources:\n  - openapi/cloud-resource-manager-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/authentication/google-cloud-platform-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:

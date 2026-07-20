@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: fragment-dev.postman_collection.json
+  format: json
+  label: Fragment Ledger GraphQL API
+  slug: fragment-ledger-graphql-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/fragment-dev/refs/heads/main/collections/fragment-dev.postman_collection.json
 description: ''
 domains:
 - caa: []

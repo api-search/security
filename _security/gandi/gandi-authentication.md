@@ -29,7 +29,7 @@ provider_name: Gandi
 provider_slug: gandi
 scheme_count: 2
 schemes:
-- description: Personal Access Token (PAT) - format `Bearer pat_xxx`.
+- description: Personal Access Token (PAT) - format `Bearer [example key]`.
   name: bearer
   scheme: bearer
   sources:
@@ -47,7 +47,7 @@ slug: gandi-authentication
 source_filename: gandi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/domains-openapi-original.yml, openapi/livedns-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  description: Personal Access Token (PAT) - format `Bearer pat_xxx`.\n  sources:\n  - openapi/domains-openapi-original.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Deprecated API key - format `Apikey YOUR_API_KEY`.\n  sources:\n  - openapi/domains-openapi-original.yml\n  - openapi/livedns-openapi-original.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/domains-openapi-original.yml, openapi/livedns-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  description: Personal Access Token (PAT) - format `Bearer [example key]`.\n  sources:\n  - openapi/domains-openapi-original.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Deprecated API key - format `Apikey YOUR_API_KEY`.\n  sources:\n  - openapi/domains-openapi-original.yml\n  - openapi/livedns-openapi-original.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/authentication/gandi-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

@@ -94,7 +94,7 @@ provider_name: Helicone
 provider_slug: helicone
 scheme_count: 1
 schemes:
-- description: 'Bearer token authentication. Format: ''Bearer YOUR_API_KEY'''
+- description: 'Bearer token authentication. Format: ''Bearer [example key]'''
   in: header
   name: api_key
   parameter: Authorization
@@ -105,7 +105,7 @@ slug: helicone-authentication
 source_filename: helicone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/helicone-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Bearer token authentication. Format: ''Bearer YOUR_API_KEY'''\n  sources:\n  - openapi/helicone-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/helicone-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Bearer token authentication. Format: ''Bearer [example key]'''\n  sources:\n  - openapi/helicone-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/authentication/helicone-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

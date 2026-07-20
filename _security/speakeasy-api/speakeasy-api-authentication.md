@@ -102,7 +102,7 @@ schemes:
   sources:
   - openapi/speakeasy-api-openapi.yaml
   type: apiKey
-- description: 'A Bearer token for the workspace, passed as Authorization: Bearer YOUR_TOKEN.'
+- description: 'A Bearer token for the workspace, passed as Authorization: Bearer [example key]'
   name: Bearer
   scheme: bearer
   sources:
@@ -112,7 +112,7 @@ slug: speakeasy-api-authentication
 source_filename: speakeasy-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/speakeasy-api-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  - http\nschemes:\n- name: APIKey\n  type: apiKey\n  in: header\n  headerName: x-api-key\n  description: The API key for the workspace, passed in the x-api-key header.\n  sources:\n  - openapi/speakeasy-api-openapi.yaml\n- name: WorkspaceIdentifier\n  type: apiKey\n  in: header\n  headerName: x-workspace-identifier\n  description: The workspace identifier, passed in the x-workspace-identifier header.\n  sources:\n  - openapi/speakeasy-api-openapi.yaml\n- name: Bearer\n  type: http\n  scheme: bearer\n  description: 'A Bearer token for the workspace, passed as Authorization: Bearer YOUR_TOKEN.'\n  sources:\n  - openapi/speakeasy-api-openapi.yaml\nnotes: >-\n  The published Speakeasy OpenAPI lists three interchangeable top-level security\n  schemes (APIKey, WorkspaceIdentifier, Bearer). Workspace API keys and tokens are\n  created and managed via the Workspaces\
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/speakeasy-api-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  - http\nschemes:\n- name: APIKey\n  type: apiKey\n  in: header\n  headerName: x-api-key\n  description: The API key for the workspace, passed in the x-api-key header.\n  sources:\n  - openapi/speakeasy-api-openapi.yaml\n- name: WorkspaceIdentifier\n  type: apiKey\n  in: header\n  headerName: x-workspace-identifier\n  description: The workspace identifier, passed in the x-workspace-identifier header.\n  sources:\n  - openapi/speakeasy-api-openapi.yaml\n- name: Bearer\n  type: http\n  scheme: bearer\n  description: 'A Bearer token for the workspace, passed as Authorization: Bearer [example key]'\n  sources:\n  - openapi/speakeasy-api-openapi.yaml\nnotes: >-\n  The published Speakeasy OpenAPI lists three interchangeable top-level security\n  schemes (APIKey, WorkspaceIdentifier, Bearer). Workspace API keys and tokens are\n  created and managed via the Workspaces\
   \ API and the Speakeasy dashboard/CLI. The\n  CLI typically authenticates interactively (speakeasy auth) and stores credentials\n  locally rather than requiring you to pass headers by hand.\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speakeasy-api/refs/heads/main/authentication/speakeasy-api-authentication.yml
 summary_line: apiKey/http · 3 schemes

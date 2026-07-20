@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: docs
+  format: yaml
+  label: Mural Public API
+  slug: mural-public-api
+  spec_type: Postman
+  url: https://developers.mural.co/public/docs
 certifications:
 - SOC 2
 - ISO 27001

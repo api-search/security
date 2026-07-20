@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: postman.yaml
+  format: yaml
+  label: MYOB Business API
+  slug: myob-business-api
+  spec_type: Postman
+  url: https://developers.myob.com/api/myob-business-api/accountright-postman-collection/
 description: ''
 domains:
 - caa: []

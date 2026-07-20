@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: flowable-bpmn-openapi.yml
+- filename: bpmn.html
   format: yaml
   label: Flowable BPMN API
   slug: flowable-bpmn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flowable/refs/heads/main/openapi/flowable-bpmn-openapi.yml
+  url: https://documentation.flowable.com/latest/assets/core-swagger/bpmn.html
 - filename: flowable-cmmn-openapi.yml
   format: yaml
   label: Flowable CMMN API

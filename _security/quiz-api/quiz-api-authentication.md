@@ -21,7 +21,7 @@ provider_name: QuizAPI
 provider_slug: quiz-api
 scheme_count: 1
 schemes:
-- description: 'Pass your API key as a Bearer token: `Authorization: Bearer qza_live_...`. Alternatively, use the `api_key` query parameter.'
+- description: 'Pass your API key as a Bearer token: `Authorization: Bearer [example key]`. Alternatively, use the `api_key` query parameter.'
   name: BearerAuth
   scheme: bearer
   sources:
@@ -31,7 +31,7 @@ slug: quiz-api-authentication
 source_filename: quiz-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quiz-api-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'Pass your API key as a Bearer token: `Authorization: Bearer qza_live_...`. Alternatively,\n    use the `api_key` query parameter.'\n  sources:\n  - openapi/quiz-api-openapi.json\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quiz-api-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'Pass your API key as a Bearer token: `Authorization: Bearer [example key]`. Alternatively,\n    use the `api_key` query parameter.'\n  sources:\n  - openapi/quiz-api-openapi.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quiz-api/refs/heads/main/authentication/quiz-api-authentication.yml
 summary_line: http · 1 scheme
 tags:

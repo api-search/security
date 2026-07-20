@@ -22,7 +22,7 @@ provider_name: Moesif
 provider_slug: moesif
 scheme_count: 1
 schemes:
-- description: "Your Management API token must be added to the request _Authorization_ header using the following format:\n\n `Authorization: Bearer YOUR_MANAGEMENT_API_KEY`"
+- description: "Your Management API token must be added to the request _Authorization_ header using the following format:\n\n `Authorization: Bearer [example key]`"
   flows:
   - flow: password
     scopes: 41
@@ -36,7 +36,7 @@ slug: moesif-authentication
 source_filename: moesif-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/moesif-openapi.json, openapi/moesif-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - password\nschemes:\n- name: managementAPIToken\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: https://api.moesif.com/v1/:orgId/oauth/access_tokens\n    scopes: 41\n  description: |-\n    Your Management API token must be added to the request _Authorization_ header using the following format:\n\n     `Authorization: Bearer YOUR_MANAGEMENT_API_KEY`\n  sources:\n  - openapi/moesif-openapi.json\n  - openapi/moesif-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/moesif-openapi.json, openapi/moesif-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - password\nschemes:\n- name: managementAPIToken\n  type: oauth2\n  flows:\n  - flow: password\n    tokenUrl: https://api.moesif.com/v1/:orgId/oauth/access_tokens\n    scopes: 41\n  description: |-\n    Your Management API token must be added to the request _Authorization_ header using the following format:\n\n     `Authorization: Bearer [example key]`\n  sources:\n  - openapi/moesif-openapi.json\n  - openapi/moesif-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moesif/refs/heads/main/authentication/moesif-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

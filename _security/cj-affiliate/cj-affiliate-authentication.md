@@ -1,6 +1,12 @@
 ---
 api_key_in: []
 api_specs:
+- filename: cj-affiliate.postman_collection.json
+  format: json
+  label: CJ Commission Detail API
+  slug: cj-affiliate-commission-detail-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/collections/cj-affiliate.postman_collection.json
 - filename: cj-affiliate-openapi.yml
   format: yaml
   label: CJ Link Search API

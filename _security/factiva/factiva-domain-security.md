@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Snapshots API
+  slug: factiva-snapshots-api
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Streams API
+  slug: factiva-streams-api
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Extractions API
+  slug: factiva-extractions-api
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Analytics API
+  slug: factiva-analytics-api
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva DJID Taxonomy API
+  slug: factiva-djid-taxonomy-api
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
+- filename: factiva-apis
+  format: yaml
+  label: Factiva Code API
+  slug: factiva-code-api
+  spec_type: Postman
+  url: https://www.postman.com/dj-cse/dow-jones-apis/documentation/l9tpql6/factiva-apis
 description: ''
 domains:
 - caa: []

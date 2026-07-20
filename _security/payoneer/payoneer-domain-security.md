@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: payoneer-mass-payout-api
+  format: yaml
+  label: Payoneer Mass Payout API
+  slug: payoneer-mass-payout-api
+  spec_type: Postman
+  url: https://www.postman.com/payoneerdocs/payoneer-mass-payout-api/documentation/hr4ub7m/payoneer-mass-payout-api
+- filename: payoneer-mass-payout-services-api
+  format: yaml
+  label: Payoneer Mass Payout & Services API
+  slug: payoneer-mass-payout-services-api
+  spec_type: Postman
+  url: https://www.postman.com/payoneerdocs/payoneer-mass-payout-services-apis/collection/37opocf/payoneer-mass-payout-services-api
 description: ''
 domains:
 - caa: []

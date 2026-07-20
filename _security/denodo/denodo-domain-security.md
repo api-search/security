@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: rest_api
+  format: yaml
+  label: Denodo Data Catalog REST API
+  slug: data-catalog-api
+  spec_type: OpenAPI
+  url: https://community.denodo.com/docs/html/browse/9.0/en/vdp/data_catalog/appendix/rest_api/rest_api
 description: ''
 domains:
 - caa: []

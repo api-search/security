@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: dronedeploy.postman_collection.json
+  format: json
+  label: DroneDeploy Projects and Plans API
+  slug: dronedeploy-projects-and-plans-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/collections/dronedeploy.postman_collection.json
+- filename: dronedeploy.postman_collection.json
+  format: json
+  label: DroneDeploy Maps and Exports API
+  slug: dronedeploy-maps-and-exports-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/collections/dronedeploy.postman_collection.json
+- filename: dronedeploy.postman_collection.json
+  format: json
+  label: DroneDeploy Annotations and Issues API
+  slug: dronedeploy-annotations-and-issues-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/collections/dronedeploy.postman_collection.json
+- filename: dronedeploy.postman_collection.json
+  format: json
+  label: DroneDeploy Uploads and Images API
+  slug: dronedeploy-uploads-and-images-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/collections/dronedeploy.postman_collection.json
+- filename: dronedeploy.postman_collection.json
+  format: json
+  label: DroneDeploy Users and Organizations API
+  slug: dronedeploy-users-and-organizations-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/collections/dronedeploy.postman_collection.json
+- filename: dronedeploy.postman_collection.json
+  format: json
+  label: DroneDeploy Reports API
+  slug: dronedeploy-reports-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/collections/dronedeploy.postman_collection.json
+- filename: dronedeploy.postman_collection.json
+  format: json
+  label: DroneDeploy Webhooks API
+  slug: dronedeploy-webhooks-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/collections/dronedeploy.postman_collection.json
 description: ''
 domains:
 - caa:

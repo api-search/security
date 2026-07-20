@@ -45,7 +45,7 @@ provider_name: Sequin
 provider_slug: sequin-io
 scheme_count: 1
 schemes:
-- description: 'Bearer token found in the Sequin console under "Manage account". Passed as `Authorization: Bearer YOUR_API_TOKEN`.'
+- description: 'Bearer token found in the Sequin console under "Manage account". Passed as `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -55,7 +55,7 @@ slug: sequin-io-authentication
 source_filename: sequin-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sequin-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token found in the Sequin console under \"Manage account\". Passed as `Authorization:\n    Bearer YOUR_API_TOKEN`.'\n  sources:\n  - openapi/sequin-io-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sequin-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token found in the Sequin console under \"Manage account\". Passed as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/sequin-io-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sequin-io/refs/heads/main/authentication/sequin-io-authentication.yml
 summary_line: http · 1 scheme
 tags:

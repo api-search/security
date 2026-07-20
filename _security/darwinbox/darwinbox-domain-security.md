@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: darwinbox-apis
+  format: yaml
+  label: Darwinbox API
+  slug: darwinbox-api
+  spec_type: Postman
+  url: https://www.postman.com/darwinbox-api/darwinbox-integration-team-s-public-workspace/documentation/ej5mbuh/darwinbox-apis
 description: ''
 domains:
 - caa: []

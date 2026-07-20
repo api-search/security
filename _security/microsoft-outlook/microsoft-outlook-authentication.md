@@ -60,12 +60,14 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Microsoft Outlook Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Microsoft Outlook secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+- clientCredentials
+- deviceCode
+overview: Microsoft Outlook secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode, clientCredentials, and deviceCode flow(s).
 provider_name: Microsoft Outlook
 provider_slug: microsoft-outlook
 scheme_count: 1
@@ -84,7 +86,8 @@ slug: microsoft-outlook-authentication
 source_filename: microsoft-outlook-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-graph-mail-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 6\n  description: Microsoft identity platform OAuth 2.0 authorization. Supports delegated (user)\n    and application permissions.\n  sources:\n  - openapi/microsoft-graph-mail-api-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microsoft-graph-mail-api-openapi.yml\ndocs: https://learn.microsoft.com/en-us/graph/auth/\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  - deviceCode\nplatform: Microsoft identity platform (Microsoft Entra ID)\ntoken_format: JWT bearer, sent in the Authorization header\nconsent_models:\n  - delegated (user context, /authorize + /token)\n  - application (app-only, client credentials, admin consent required)\nsupported_flows:\n  - authorizationCode (with PKCE for public clients)\n  - clientCredentials (app-only / daemon)\n  - deviceCode (input-constrained devices)\n  - onBehalfOf (middle-tier services)\nadd_in_auth:\n  - Nested App Authentication (NAA) — GA across Outlook add-ins (Office.js)\n  - Office SSO (getAccessToken)\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n\
+  \    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 6\n  description: Microsoft identity platform OAuth 2.0 authorization. Supports delegated (user) and application permissions.\n  sources:\n  - openapi/microsoft-graph-mail-api-openapi.yml\noidc_discovery: well-known/microsoft-outlook-openid-configuration.json\nscopes: scopes/microsoft-outlook-scopes.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/authentication/microsoft-outlook-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

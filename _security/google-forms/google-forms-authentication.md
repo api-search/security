@@ -12,7 +12,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Google Forms Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -36,7 +36,7 @@ slug: google-forms-authentication
 source_filename: google-forms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-forms-api.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 6\n  description: OAuth 2.0 authentication for Google Forms API.\n  sources:\n  - openapi/google-forms-api.yaml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/google-forms-api.yaml\ndocs: https://developers.google.com/workspace/forms/api/guides/authorize\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 6\n  description: OAuth 2.0 authentication for Google Forms API.\n  sources:\n  - openapi/google-forms-api.yaml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-forms/refs/heads/main/authentication/google-forms-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

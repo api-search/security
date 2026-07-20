@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: reverb-openapi.yml
+- filename: swagger
   format: yaml
   label: Reverb REST API
   slug: rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-openapi.yml
+  url: https://reverb.com/swagger
 auth_types:
 - apiKey
 description: ''

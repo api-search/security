@@ -24,7 +24,7 @@ schemes:
 - bearerFormat: REKA_API_KEY
   description: 'Bearer token issued from the Reka Platform dashboard. Pass as
 
-    `Authorization: Bearer REKA_API_KEY`.'
+    `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -34,7 +34,7 @@ slug: reka-authentication
 source_filename: reka-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reka-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: REKA_API_KEY\n  description: |-\n    Bearer token issued from the Reka Platform dashboard. Pass as\n    `Authorization: Bearer REKA_API_KEY`.\n  sources:\n  - openapi/reka-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reka-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: REKA_API_KEY\n  description: |-\n    Bearer token issued from the Reka Platform dashboard. Pass as\n    `Authorization: Bearer [example key]`.\n  sources:\n  - openapi/reka-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reka/refs/heads/main/authentication/reka-authentication.yml
 summary_line: http · 1 scheme
 tags:

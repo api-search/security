@@ -22,7 +22,7 @@ provider_slug: retell-ai
 scheme_count: 1
 schemes:
 - bearerFormat: string
-  description: Authentication header containing API key (find it in dashboard). The format is "Bearer YOUR_API_KEY"
+  description: Authentication header containing API key (find it in dashboard). The format is "Bearer [example key]"
   name: api_key
   scheme: bearer
   sources:
@@ -32,7 +32,7 @@ slug: retell-ai-authentication
 source_filename: retell-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/retell-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: api_key\n  type: http\n  scheme: bearer\n  bearerFormat: string\n  description: Authentication header containing API key (find it in dashboard). The format is\n    \"Bearer YOUR_API_KEY\"\n  sources:\n  - openapi/retell-ai-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/retell-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: api_key\n  type: http\n  scheme: bearer\n  bearerFormat: string\n  description: Authentication header containing API key (find it in dashboard). The format is\n    \"Bearer [example key]\"\n  sources:\n  - openapi/retell-ai-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retell-ai/refs/heads/main/authentication/retell-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:

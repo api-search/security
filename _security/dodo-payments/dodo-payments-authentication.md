@@ -69,7 +69,7 @@ provider_name: Dodo Payments
 provider_slug: dodo-payments
 scheme_count: 1
 schemes:
-- description: 'Authenticate with your Dodo Payments API key as a bearer token: `Authorization: Bearer YOUR_API_KEY`. Use a test-mode key against https://test.dodopayments.com and a live-mode key against https://live.dodopayments.com.'
+- description: 'Authenticate with your Dodo Payments API key as a bearer token: `Authorization: Bearer [example key]`. Use a test-mode key against https://test.dodopayments.com and a live-mode key against https://live.dodopayments.com.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -79,7 +79,7 @@ slug: dodo-payments-authentication
 source_filename: dodo-payments-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dodo-payments-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Authenticate with your Dodo Payments API key as a bearer token: `Authorization:\n    Bearer YOUR_API_KEY`. Use a test-mode key against https://test.dodopayments.com and a live-mode\n    key against https://live.dodopayments.com.'\n  sources:\n  - openapi/dodo-payments-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/dodo-payments-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Authenticate with your Dodo Payments API key as a bearer token: `Authorization:\n    Bearer [example key]`. Use a test-mode key against https://test.dodopayments.com and a live-mode\n    key against https://live.dodopayments.com.'\n  sources:\n  - openapi/dodo-payments-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dodo-payments/refs/heads/main/authentication/dodo-payments-authentication.yml
 summary_line: http · 1 scheme
 tags:

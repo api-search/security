@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: pingone-openapi.yml
+- filename: pingone-platform-api
   format: yaml
   label: PingOne Platform API
   slug: platform-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-openapi.yml
+  spec_type: Postman
+  url: https://www.postman.com/ping-identity/pingone/collection/xu0baxr/pingone-platform-api
 description: ''
 domains:
 - caa: []

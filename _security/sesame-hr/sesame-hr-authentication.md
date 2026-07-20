@@ -45,7 +45,7 @@ provider_name: Sesame HR
 provider_slug: sesame-hr
 scheme_count: 1
 schemes:
-- description: 'Bearer API token. Generated self-serve in the Sesame admin panel by logging in to app.sesametime.com and going to Settings > Integrations > API, then "Create New Token". Passed as `Authorization: Bearer YOUR_API_TOKEN`. Tokens grant access scoped to the account holder''s permissions, can be revoked from the dashboard (revoked tokens return 401), and are recommended to be rotated every ~90 days. Token validity can be checked with GET /core/v3/info.'
+- description: 'Bearer API token. Generated self-serve in the Sesame admin panel by logging in to app.sesametime.com and going to Settings > Integrations > API, then "Create New Token". Passed as `Authorization: Bearer [example key]`. Tokens grant access scoped to the account holder''s permissions, can be revoked from the dashboard (revoked tokens return 401), and are recommended to be rotated every ~90 days. Token validity can be checked with GET /core/v3/info.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -56,7 +56,7 @@ slug: sesame-hr-authentication
 source_filename: sesame-hr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: https://apidocs.sesametime.com/authentication\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer API token. Generated self-serve in the Sesame admin panel by logging\n    in to app.sesametime.com and going to Settings > Integrations > API, then\n    \"Create New Token\". Passed as `Authorization: Bearer YOUR_API_TOKEN`.\n    Tokens grant access scoped to the account holder's permissions, can be\n    revoked from the dashboard (revoked tokens return 401), and are recommended\n    to be rotated every ~90 days. Token validity can be checked with\n    GET /core/v3/info.\n  sources:\n  - https://apidocs.sesametime.com/authentication\n  - https://apidocs.sesametime.com/introduction\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: https://apidocs.sesametime.com/authentication\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer API token. Generated self-serve in the Sesame admin panel by logging\n    in to app.sesametime.com and going to Settings > Integrations > API, then\n    \"Create New Token\". Passed as `Authorization: Bearer [example key]`.\n    Tokens grant access scoped to the account holder's permissions, can be\n    revoked from the dashboard (revoked tokens return 401), and are recommended\n    to be rotated every ~90 days. Token validity can be checked with\n    GET /core/v3/info.\n  sources:\n  - https://apidocs.sesametime.com/authentication\n  - https://apidocs.sesametime.com/introduction\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sesame-hr/refs/heads/main/authentication/sesame-hr-authentication.yml
 summary_line: http · 1 scheme
 tags:

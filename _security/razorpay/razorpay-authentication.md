@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: razorpay-openapi.yml
+- filename: overview
   format: yaml
   label: Razorpay Core REST API
   slug: core-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-openapi.yml
+  spec_type: Postman
+  url: https://www.postman.com/razorpaydev/razorpay-public-workspace/overview
 - filename: razorpay-webhooks-asyncapi.yml
   format: yaml
   label: Razorpay Webhooks

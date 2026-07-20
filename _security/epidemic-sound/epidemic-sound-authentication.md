@@ -30,7 +30,7 @@ schemes:
     API keys are prefixed with `epidemic_live_`.
 
 
-    > **Example Header:** `Authorization: Bearer epidemic_live_your-api-key`'
+    > **Example Header:** `Authorization: Bearer [example key]`'
   name: ApiKeyAuth
   scheme: bearer
   sources:
@@ -43,7 +43,7 @@ schemes:
     The access token is of JWT format and should be passed in a header with your API requests:
 
 
-    > **Example Header:** `Authorization: Bearer your-partner-token`'
+    > **Example Header:** `Authorization: Bearer [example key]`'
   name: PartnerAuth
   scheme: Bearer
   sources:
@@ -54,7 +54,7 @@ schemes:
     handled with OpenID Connect, which is a layer on top of OAuth 2.0.
 
 
-    > **Example Header:** `Authorization: Bearer es-connect-token`'
+    > **Example Header:** `Authorization: Bearer [example key]`'
   flows:
   - authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth
     flow: authorizationCode
@@ -68,8 +68,8 @@ slug: epidemic-sound-authentication
 source_filename: epidemic-sound-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/epidemic-sound-partner-content-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  description: |-\n    API key authentication for server-to-server communication.\n    Pass your API key as a Bearer token in the Authorization header.\n    API keys are prefixed with `epidemic_live_`.\n\n    > **Example Header:** `Authorization: Bearer epidemic_live_your-api-key`\n  sources:\n  - openapi/epidemic-sound-partner-content-api-openapi.yml\n- name: PartnerAuth\n  type: http\n  scheme: Bearer\n  description: |-\n    Partner authentication is handled with short lived partner access tokens.\n    Use your api credentials to request these tokens.\n    The access token is of JWT format and should be passed in a header with your API requests:\n\n    > **Example Header:** `Authorization: Bearer your-partner-token`\n  sources:\n\
-  \  - openapi/epidemic-sound-partner-content-api-openapi.yml\n- name: EpidemicSoundConnectAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n    scopes: 0\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer es-connect-token`\n  sources:\n  - openapi/epidemic-sound-partner-content-api-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/epidemic-sound-partner-content-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  description: |-\n    API key authentication for server-to-server communication.\n    Pass your API key as a Bearer token in the Authorization header.\n    API keys are prefixed with `epidemic_live_`.\n\n    > **Example Header:** `Authorization: Bearer [example key]`\n  sources:\n  - openapi/epidemic-sound-partner-content-api-openapi.yml\n- name: PartnerAuth\n  type: http\n  scheme: Bearer\n  description: |-\n    Partner authentication is handled with short lived partner access tokens.\n    Use your api credentials to request these tokens.\n    The access token is of JWT format and should be passed in a header with your API requests:\n\n    > **Example Header:** `Authorization: Bearer [example key]`\n  sources:\n  - openapi/epidemic-sound-partner-content-api-openapi.yml\n\
+  - name: EpidemicSoundConnectAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/auth\n    tokenUrl: https://login.epidemicsound.com/auth/realms/accounts/protocol/openid-connect/token\n    scopes: 0\n  description: |-\n    For users signing in with an Epidemic Sound account, user authentication is\n    handled with OpenID Connect, which is a layer on top of OAuth 2.0.\n\n    > **Example Header:** `Authorization: Bearer [example key]`\n  sources:\n  - openapi/epidemic-sound-partner-content-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epidemic-sound/refs/heads/main/authentication/epidemic-sound-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:

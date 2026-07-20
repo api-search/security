@@ -21,7 +21,7 @@ provider_name: Kion
 provider_slug: kion
 scheme_count: 1
 schemes:
-- description: 'Kion App API Key. Generate in Kion under your user profile settings. Use in the Authorization header as: Bearer YOUR_API_KEY'
+- description: 'Kion App API Key. Generate in Kion under your user profile settings. Use in the Authorization header as: Bearer [example key]'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -31,7 +31,7 @@ slug: kion-authentication
 source_filename: kion-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kion-cloud-operations-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Kion App API Key. Generate in Kion under your user profile settings. Use in\n    the Authorization header as: Bearer YOUR_API_KEY'\n  sources:\n  - openapi/kion-cloud-operations-api-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kion-cloud-operations-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Kion App API Key. Generate in Kion under your user profile settings. Use in\n    the Authorization header as: Bearer [example key]'\n  sources:\n  - openapi/kion-cloud-operations-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kion/refs/heads/main/authentication/kion-authentication.yml
 summary_line: http · 1 scheme
 tags:

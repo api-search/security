@@ -6,6 +6,12 @@ api_specs:
   slug: nowpayments-payment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/openapi.yml
+- filename: S1a32n38
+  format: yaml
+  label: NOWPayments Mass Payouts API
+  slug: nowpayments-mass-payouts-api
+  spec_type: Postman
+  url: https://documenter.getpostman.com/view/7907941/S1a32n38
 description: ''
 domains:
 - caa: []

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: 2s93JtP3F6
+  format: yaml
+  label: ENTSO-E Transparency Platform REST API
+  slug: entso-e-transparency-platform-rest-api
+  spec_type: Postman
+  url: https://documenter.getpostman.com/view/7009892/2s93JtP3F6
 description: ''
 domains:
 - caa: []

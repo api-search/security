@@ -105,7 +105,7 @@ provider_name: Clerk
 provider_slug: clerk-dev
 scheme_count: 1
 schemes:
-- description: 'Your Clerk instance Secret Key (starts with sk_test_ or sk_live_) passed as `Authorization: Bearer YOUR_SECRET_KEY`.'
+- description: 'Your Clerk instance Secret Key (starts with sk_test_ or sk_live_) passed as `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -115,7 +115,7 @@ slug: clerk-dev-authentication
 source_filename: clerk-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/clerk-dev-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Your Clerk instance Secret Key (starts with sk_test_ or sk_live_) passed as\n    `Authorization: Bearer YOUR_SECRET_KEY`.'\n  sources:\n  - openapi/clerk-dev-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/clerk-dev-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Your Clerk instance Secret Key (starts with sk_test_ or sk_live_) passed as\n    `Authorization: Bearer [example key]`.'\n  sources:\n  - openapi/clerk-dev-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clerk-dev/refs/heads/main/authentication/clerk-dev-authentication.yml
 summary_line: http · 1 scheme
 tags:

@@ -18,7 +18,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Sharepoint Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -42,7 +42,8 @@ slug: sharepoint-authentication
 source_filename: sharepoint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sharepoint-rest-api.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n    scopes: 4\n  description: OAuth 2.0 via Azure AD / Microsoft Identity Platform.\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/sharepoint-rest-api.yaml\ndocs: https://learn.microsoft.com/en-us/graph/auth/\ndocs_sharepoint_rest: https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins\nnotes: >-\n  Both the SharePoint REST API and Microsoft Graph authenticate with OAuth 2.0 through\n  Microsoft Entra (Azure AD / Microsoft identity platform). Supports authorization code\n  (delegated), client credentials (app-only), and on-behalf-of flows. Tokens are bearer\n  tokens issued by login.microsoftonline.com. Write operations against the SharePoint REST\n  service additionally require the X-RequestDigest form-digest header.\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n\
+  \    scopes: 4\n  description: OAuth 2.0 via Azure AD / Microsoft Identity Platform.\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/authentication/sharepoint-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

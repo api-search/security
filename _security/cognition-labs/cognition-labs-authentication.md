@@ -69,7 +69,7 @@ provider_name: Cognition Labs
 provider_slug: cognition-labs
 scheme_count: 1
 schemes:
-- description: 'v1/v2 keys are prefixed apk_user_* (personal) or apk_* (service). The current v3 API uses service-user or personal access tokens prefixed cog_. Passed as `Authorization: Bearer YOUR_API_KEY`.'
+- description: 'v1/v2 keys are prefixed apk_user_* (personal) or apk_* (service). The current v3 API uses service-user or personal access tokens prefixed cog_. Passed as `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -79,7 +79,7 @@ slug: cognition-labs-authentication
 source_filename: cognition-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cognition-labs-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'v1/v2 keys are prefixed apk_user_* (personal) or apk_* (service). The current\n    v3 API uses service-user or personal access tokens prefixed cog_. Passed as `Authorization:\n    Bearer YOUR_API_KEY`.'\n  sources:\n  - openapi/cognition-labs-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cognition-labs-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'v1/v2 keys are prefixed apk_user_* (personal) or apk_* (service). The current\n    v3 API uses service-user or personal access tokens prefixed cog_. Passed as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/cognition-labs-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/authentication/cognition-labs-authentication.yml
 summary_line: http · 1 scheme
 tags:

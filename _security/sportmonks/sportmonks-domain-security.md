@@ -6,6 +6,12 @@ api_specs:
   slug: football-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/openapi/sportmonks-football-openapi.yml
+- filename: postman.yaml
+  format: yaml
+  label: Sportmonks Cricket API
+  slug: cricket-api
+  spec_type: Postman
+  url: https://cricket-postman.sportmonks.com/
 description: ''
 domains:
 - caa: []

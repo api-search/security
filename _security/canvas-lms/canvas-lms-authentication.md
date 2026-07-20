@@ -19,7 +19,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Canvas Lms Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -49,7 +49,8 @@ slug: canvas-lms-authentication
 source_filename: canvas-lms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/canvas-lms-rest-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://canvas.instructure.com/login/oauth2/auth\n    tokenUrl: https://canvas.instructure.com/login/oauth2/token\n    scopes: 3\n  description: Canvas OAuth2 (RFC 6749) authorization code grant. Register a Developer Key in\n    the target Canvas account to obtain a client_id and client_secret.\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: A Canvas access token. For testing only — production apps MUST use the OAuth2\n    flow per the Canvas API Policy.\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/canvas-lms-rest-api-openapi.yml\ndocs:\n- https://developerdocs.instructure.com/services/canvas/oauth2/file.oauth.md\n- https://developerdocs.instructure.com/services/canvas/oauth2/file.oauth_endpoints.md\n- https://developerdocs.instructure.com/services/canvas/oauth2/file.developer_keys.md\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://canvas.instructure.com/login/oauth2/auth\n    tokenUrl: https://canvas.instructure.com/login/oauth2/token\n    scopes: 3\n  description: Canvas OAuth2 (RFC 6749) authorization code grant. Register a Developer Key in\n    the target Canvas account to obtain a client_id and client_secret.\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: A Canvas access token. For testing\
+  \ only — production apps MUST use the OAuth2\n    flow per the Canvas API Policy.\n  sources:\n  - openapi/canvas-lms-rest-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/authentication/canvas-lms-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:

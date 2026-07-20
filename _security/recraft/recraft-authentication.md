@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: recraft-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Recraft API
   slug: platform
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/openapi/recraft-openapi.yml
+  url: https://external.api.recraft.ai/doc/
 auth_types:
 - http
 description: ''

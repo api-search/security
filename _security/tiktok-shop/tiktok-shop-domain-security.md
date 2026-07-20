@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tiktok-shop-open
+  format: yaml
+  label: TikTok Shop Open API
+  slug: open-api
+  spec_type: Postman
+  url: https://www.postman.com/tiktok-shop-open
 description: ''
 domains:
 - caa: []

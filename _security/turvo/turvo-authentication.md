@@ -53,7 +53,7 @@ provider_name: Turvo
 provider_slug: turvo
 scheme_count: 2
 schemes:
-- description: 'OAuth 2.0 Bearer access token obtained from POST /oauth/token. Passed as Authorization: Bearer YOUR_ACCESS_TOKEN.'
+- description: 'OAuth 2.0 Bearer access token obtained from POST /oauth/token. Passed as Authorization: Bearer [example key]'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -70,7 +70,7 @@ slug: turvo-authentication
 source_filename: turvo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/turvo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'OAuth 2.0 Bearer access token obtained from POST /oauth/token. Passed as Authorization:\n    Bearer YOUR_ACCESS_TOKEN.'\n  sources:\n  - openapi/turvo-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Per-tenant API key from the Turvo tenant API profile, sent on every request.\n  sources:\n  - openapi/turvo-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/turvo-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'OAuth 2.0 Bearer access token obtained from POST /oauth/token. Passed as Authorization:\n    Bearer [example key]'\n  sources:\n  - openapi/turvo-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Per-tenant API key from the Turvo tenant API profile, sent on every request.\n  sources:\n  - openapi/turvo-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/authentication/turvo-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

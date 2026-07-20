@@ -39,7 +39,7 @@ provider_name: Rybbit
 provider_slug: rybbit
 scheme_count: 1
 schemes:
-- description: 'User-scoped API key with organization-level access. Keys begin with "rb_" and are 35 characters long. Send as `Authorization: Bearer rb_...`. A `?api_key=` query parameter is also accepted for quick testing only. API keys and rate limits apply to the Stats API on Rybbit Cloud; self-hosted instances have no rate limits.'
+- description: 'User-scoped API key with organization-level access. Keys begin with "rb_" and are 35 characters long. Send as `Authorization: Bearer [example key]`. A `?api_key=` query parameter is also accepted for quick testing only. API keys and rate limits apply to the Stats API on Rybbit Cloud; self-hosted instances have no rate limits.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -49,7 +49,7 @@ slug: rybbit-authentication
 source_filename: rybbit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rybbit-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'User-scoped API key with organization-level access. Keys begin with \"rb_\" and\n    are 35 characters long. Send as `Authorization: Bearer rb_...`. A `?api_key=` query parameter\n    is also accepted for quick testing only. API keys and rate limits apply to the Stats API\n    on Rybbit Cloud; self-hosted instances have no rate limits.'\n  sources:\n  - openapi/rybbit-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rybbit-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'User-scoped API key with organization-level access. Keys begin with \"rb_\" and\n    are 35 characters long. Send as `Authorization: Bearer [example key]`. A `?api_key=` query parameter\n    is also accepted for quick testing only. API keys and rate limits apply to the Stats API\n    on Rybbit Cloud; self-hosted instances have no rate limits.'\n  sources:\n  - openapi/rybbit-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/authentication/rybbit-authentication.yml
 summary_line: http · 1 scheme
 tags:

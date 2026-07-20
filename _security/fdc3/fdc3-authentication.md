@@ -1,5 +1,12 @@
 ---
 api_key_in: []
+api_specs:
+- filename: app-directory.html
+  format: yaml
+  label: FDC3 App Directory API
+  slug: app-directory-api
+  spec_type: OpenAPI
+  url: https://fdc3.finos.org/schemas/2.2/app-directory.html
 auth_types:
 - http
 description: ''

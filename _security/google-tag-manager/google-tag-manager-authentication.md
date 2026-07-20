@@ -12,7 +12,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Google Tag Manager Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -36,7 +36,7 @@ slug: google-tag-manager-authentication
 source_filename: google-tag-manager-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-tag-manager-api-v2-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 7\n  description: OAuth 2.0 authentication for Google Tag Manager API.\n  sources:\n  - openapi/google-tag-manager-api-v2-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/google-tag-manager-api-v2-openapi.yml\ndocs: https://developers.google.com/tag-platform/tag-manager/api/v2/authorization\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 7\n  description: OAuth 2.0 authentication for Google Tag Manager API.\n  sources:\n  - openapi/google-tag-manager-api-v2-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/authentication/google-tag-manager-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

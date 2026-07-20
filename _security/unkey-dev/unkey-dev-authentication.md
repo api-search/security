@@ -69,7 +69,7 @@ provider_name: Unkey
 provider_slug: unkey-dev
 scheme_count: 1
 schemes:
-- description: 'HTTP Bearer authentication with an Unkey root key, passed as `Authorization: Bearer unkey_xxxxxxxxxxx`. Most endpoints require specific permissions on the root key.'
+- description: 'HTTP Bearer authentication with an Unkey root key, passed as `Authorization: Bearer [example key]`. Most endpoints require specific permissions on the root key.'
   name: rootKey
   scheme: bearer
   sources:
@@ -79,7 +79,7 @@ slug: unkey-dev-authentication
 source_filename: unkey-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unkey-dev-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: rootKey\n  type: http\n  scheme: bearer\n  description: 'HTTP Bearer authentication with an Unkey root key, passed as `Authorization:\n    Bearer unkey_xxxxxxxxxxx`. Most endpoints require specific permissions on the root key.'\n  sources:\n  - openapi/unkey-dev-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unkey-dev-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: rootKey\n  type: http\n  scheme: bearer\n  description: 'HTTP Bearer authentication with an Unkey root key, passed as `Authorization:\n    Bearer [example key]`. Most endpoints require specific permissions on the root key.'\n  sources:\n  - openapi/unkey-dev-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unkey-dev/refs/heads/main/authentication/unkey-dev-authentication.yml
 summary_line: http · 1 scheme
 tags:

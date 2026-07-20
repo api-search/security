@@ -459,17 +459,19 @@ api_specs:
   url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/asyncapi/zendesk-webhooks-asyncapi.yml
 auth_types:
 - http
+- oauth2
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Zendesk Authentication
 name_suffix: Authentication
-oauth_flows: []
-overview: Zendesk secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.
+oauth_flows:
+- authorizationCode
+overview: Zendesk secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
 provider_name: Zendesk
 provider_slug: zendesk
-scheme_count: 2
+scheme_count: 3
 schemes:
 - description: 'Use your Zendesk email address followed by /token and your API token as the password. For example: user@example.com/token:api_token'
   name: basicAuth
@@ -477,19 +479,28 @@ schemes:
   sources:
   - openapi/zendesk-support-openapi.yml
   type: http
-- description: OAuth 2.0 access token
+- description: OAuth 2.0 access token presented as a bearer credential.
   name: bearerAuth
   scheme: bearer
   sources:
   - openapi/zendesk-support-openapi.yml
   type: http
+- authorizationUrl: https://{subdomain}.zendesk.com/oauth/authorizations/new
+  flow: authorizationCode
+  name: OAuth2
+  scopes: scopes/zendesk-scopes.yml
+  sources:
+  - docs
+  tokenUrl: https://{subdomain}.zendesk.com/oauth/tokens
+  type: oauth2
 slug: zendesk-authentication
 source_filename: zendesk-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zendesk-support-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'Use your Zendesk email address followed by /token and your API token as the\n    password. For example: user@example.com/token:api_token'\n  sources:\n  - openapi/zendesk-support-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token\n  sources:\n  - openapi/zendesk-support-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/zendesk-support-openapi.yml\ndocs: https://developer.zendesk.com/documentation/api-basics/authentication/\nnotes: >-\n  Zendesk supports three request-authentication styles: (1) Basic auth with an\n  API token, sent as \"{email_address}/token\" with the API token as the password;\n  (2) Basic auth with an agent password (discouraged, being phased out); and\n  (3) OAuth 2.0 access tokens presented as an HTTP bearer credential. OAuth uses\n  the authorization-code flow with read / write / impersonate and\n  resource-qualified scopes (see scopes/zendesk-scopes.yml). As of 2026-01-16\n  Zendesk enforces default token TTL and requires the refresh-token flow for\n  global OAuth clients.\nsummary:\n  types:\n  - http\n  - oauth2\n  http_schemes:\n  - basic\n  - bearer\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: 'Use your Zendesk email address followed\
+  \ by /token and your API token as the\n    password. For example: user@example.com/token:api_token'\n  sources:\n  - openapi/zendesk-support-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token presented as a bearer credential.\n  sources:\n  - openapi/zendesk-support-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://{subdomain}.zendesk.com/oauth/authorizations/new\n  tokenUrl: https://{subdomain}.zendesk.com/oauth/tokens\n  scopes: scopes/zendesk-scopes.yml\n  sources:\n  - docs\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/authentication/zendesk-authentication.yml
-summary_line: http · 2 schemes
+summary_line: http/oauth2 · 3 schemes
 tags:
 - Chat
 - CRM

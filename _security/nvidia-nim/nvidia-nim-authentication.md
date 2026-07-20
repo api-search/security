@@ -66,7 +66,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Nvidia Nim Authentication
 name_suffix: Authentication
 oauth_flows: []
@@ -93,8 +93,8 @@ slug: nvidia-nim-authentication
 source_filename: nvidia-nim-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nvidia-nim-biology-api-openapi.yml, openapi/nvidia-nim-chat-completions-api-openapi.yml,\n  openapi/nvidia-nim-completions-api-openapi.yml, openapi/nvidia-nim-embeddings-api-openapi.yml,\n  openapi/nvidia-nim-image-generation-api-openapi.yml, openapi/nvidia-nim-models-api-openapi.yml,\n  openapi/nvidia-nim-reranking-api-openapi.yml, openapi/nvidia-nim-speech-api-openapi.yml, openapi/nvidia-nim-vision-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: nvapi-...\n  sources:\n  - openapi/nvidia-nim-biology-api-openapi.yml\n  - openapi/nvidia-nim-chat-completions-api-openapi.yml\n  - openapi/nvidia-nim-completions-api-openapi.yml\n  - openapi/nvidia-nim-embeddings-api-openapi.yml\n  - openapi/nvidia-nim-image-generation-api-openapi.yml\n  - openapi/nvidia-nim-models-api-openapi.yml\n  - openapi/nvidia-nim-reranking-api-openapi.yml\n  - openapi/nvidia-nim-speech-api-openapi.yml\n\
-  \  - openapi/nvidia-nim-vision-api-openapi.yml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/*-openapi.yml\ndocs: https://build.nvidia.com/settings\ndocs_notes: >-\n  NVIDIA developer API key (\"nvapi-...\" personal key) generated at build.nvidia.com/settings\n  and sent as `Authorization: Bearer [example key]`. The same key authenticates the hosted endpoint\n  (integrate.api.nvidia.com), NGC container pulls (nvcr.io, as the $oauthtoken password), and\n  self-hosted NIM containers (via NGC_API_KEY). No OAuth2/OIDC flow; no scopes.\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: nvapi-...\n  sources:\n  - openapi/nvidia-nim-biology-api-openapi.yml\n  - openapi/nvidia-nim-chat-completions-api-openapi.yml\n  - openapi/nvidia-nim-completions-api-openapi.yml\n  - openapi/nvidia-nim-embeddings-api-openapi.yml\n  - openapi/nvidia-nim-image-generation-api-openapi.yml\n  - openapi/nvidia-nim-models-api-openapi.yml\n  - openapi/nvidia-nim-reranking-api-openapi.yml\n\
+  \  - openapi/nvidia-nim-speech-api-openapi.yml\n  - openapi/nvidia-nim-vision-api-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/authentication/nvidia-nim-authentication.yml
 summary_line: http · 1 scheme
 tags:

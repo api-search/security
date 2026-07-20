@@ -65,7 +65,7 @@ provider_name: Blaxel
 provider_slug: blaxel
 scheme_count: 2
 schemes:
-- description: API key supplied as "Bearer YOUR-API-KEY".
+- description: API key supplied as "Bearer [example key]".
   in: header
   name: apiKey
   parameter: X-Blaxel-Authorization
@@ -83,7 +83,7 @@ slug: blaxel-authentication
 source_filename: blaxel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blaxel-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Blaxel-Authorization\n  description: API key supplied as \"Bearer YOUR-API-KEY\".\n  sources:\n  - openapi/blaxel-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 short-lived JWT access token.\n  sources:\n  - openapi/blaxel-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blaxel-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Blaxel-Authorization\n  description: API key supplied as \"Bearer [example key]\".\n  sources:\n  - openapi/blaxel-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 short-lived JWT access token.\n  sources:\n  - openapi/blaxel-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blaxel/refs/heads/main/authentication/blaxel-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

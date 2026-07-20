@@ -45,7 +45,7 @@ provider_name: Roadie
 provider_slug: roadie-io
 scheme_count: 1
 schemes:
-- description: 'Roadie API token passed as `Authorization: Bearer YOUR_ROADIE_API_TOKEN`. Two token types exist - User Tokens (tied to a person, created under Administration then Account then Roadie API Access; requires the "Roadie API Key Access" policy) and Service Tokens (unattached, for automation and CI/CD, created under Administration then Service Tokens). Both grant the same API access and are shown only once at creation. The public API is available on Cloud Hosted Roadie.'
+- description: 'Roadie API token passed as `Authorization: Bearer [example key]`. Two token types exist - User Tokens (tied to a person, created under Administration then Account then Roadie API Access; requires the "Roadie API Key Access" policy) and Service Tokens (unattached, for automation and CI/CD, created under Administration then Service Tokens). Both grant the same API access and are shown only once at creation. The public API is available on Cloud Hosted Roadie.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -56,7 +56,7 @@ slug: roadie-io-authentication
 source_filename: roadie-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/roadie-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Roadie API token passed as `Authorization: Bearer YOUR_ROADIE_API_TOKEN`.\n    Two token types exist - User Tokens (tied to a person, created under\n    Administration then Account then Roadie API Access; requires the \"Roadie\n    API Key Access\" policy) and Service Tokens (unattached, for automation and\n    CI/CD, created under Administration then Service Tokens). Both grant the\n    same API access and are shown only once at creation. The public API is\n    available on Cloud Hosted Roadie.\n  sources:\n  - openapi/roadie-io-openapi.yml\n  - https://roadie.io/docs/api/authorization/\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/roadie-io-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Roadie API token passed as `Authorization: Bearer [example key]`.\n    Two token types exist - User Tokens (tied to a person, created under\n    Administration then Account then Roadie API Access; requires the \"Roadie\n    API Key Access\" policy) and Service Tokens (unattached, for automation and\n    CI/CD, created under Administration then Service Tokens). Both grant the\n    same API access and are shown only once at creation. The public API is\n    available on Cloud Hosted Roadie.\n  sources:\n  - openapi/roadie-io-openapi.yml\n  - https://roadie.io/docs/api/authorization/\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roadie-io/refs/heads/main/authentication/roadie-io-authentication.yml
 summary_line: http · 1 scheme
 tags:

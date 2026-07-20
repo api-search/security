@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: casdoor-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Casdoor REST API
   slug: casdoor-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/openapi/casdoor-openapi.yml
+  url: https://door.casdoor.com/swagger/
 description: ''
 domains:
 - caa: []

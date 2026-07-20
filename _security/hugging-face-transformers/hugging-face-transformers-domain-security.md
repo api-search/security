@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: hugging-face-transformers-openapi.json
+  format: json
+  label: Hugging Face Hub API
+  slug: hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/hugging-face-transformers/refs/heads/main/openapi/hugging-face-transformers-openapi.json
 description: ''
 domains:
 - caa: []

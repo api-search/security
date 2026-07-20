@@ -1,6 +1,12 @@
 ---
 api_key_in: []
 api_specs:
+- filename: overview
+  format: yaml
+  label: LinkedIn Consumer API
+  slug: linkedin-consumer-api
+  spec_type: Postman
+  url: https://www.postman.com/linkedin-developer-apis/workspace/linkedin-consumer-solutions/overview
 - filename: linkedin-marketing-audience-insights.yml
   format: yaml
   label: LinkedIn Marketing API

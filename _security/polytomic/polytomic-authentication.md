@@ -27,7 +27,7 @@ schemes:
   sources:
   - openapi/polytomic-openapi.json
   type: http
-- description: Basic organization-scoped API key
+- description: Basic [example key] API key
   name: orgScopedAPIKey
   scheme: basic
   sources:
@@ -37,7 +37,7 @@ slug: polytomic-authentication
 source_filename: polytomic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/polytomic-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerUserAPIKey\n  type: http\n  scheme: bearer\n  description: Bearer user API key\n  sources:\n  - openapi/polytomic-openapi.json\n- name: orgScopedAPIKey\n  type: http\n  scheme: basic\n  description: Basic organization-scoped API key\n  sources:\n  - openapi/polytomic-openapi.json\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/polytomic-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerUserAPIKey\n  type: http\n  scheme: bearer\n  description: Bearer user API key\n  sources:\n  - openapi/polytomic-openapi.json\n- name: orgScopedAPIKey\n  type: http\n  scheme: basic\n  description: Basic [example key] API key\n  sources:\n  - openapi/polytomic-openapi.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/authentication/polytomic-authentication.yml
 summary_line: http · 2 schemes
 tags:

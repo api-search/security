@@ -107,7 +107,7 @@ provider_name: Windmill
 provider_slug: windmill-dev
 scheme_count: 2
 schemes:
-- description: 'Bearer token created in the Windmill UI under account settings, passed as Authorization: Bearer YOUR_TOKEN.'
+- description: 'Bearer token created in the Windmill UI under account settings, passed as Authorization: Bearer [example key]'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -124,7 +124,7 @@ slug: windmill-dev-authentication
 source_filename: windmill-dev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/windmill-dev-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token created in the Windmill UI under account settings, passed as Authorization:\n    Bearer YOUR_TOKEN.'\n  sources:\n  - openapi/windmill-dev-openapi.yml\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: token\n  description: Session cookie set by the Windmill web UI after login.\n  sources:\n  - openapi/windmill-dev-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/windmill-dev-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token created in the Windmill UI under account settings, passed as Authorization:\n    Bearer [example key]'\n  sources:\n  - openapi/windmill-dev-openapi.yml\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: token\n  description: Session cookie set by the Windmill web UI after login.\n  sources:\n  - openapi/windmill-dev-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windmill-dev/refs/heads/main/authentication/windmill-dev-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

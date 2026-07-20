@@ -105,7 +105,7 @@ provider_name: Increase
 provider_slug: increase-com
 scheme_count: 1
 schemes:
-- description: 'Increase API key passed as `Authorization: Bearer YOUR_API_KEY`. Keys are environment-scoped (production vs sandbox). OAuth is also supported for platform / Increase-for-platforms integrations.'
+- description: 'Increase API key passed as `Authorization: Bearer [example key]`. Keys are environment-scoped (production vs sandbox). OAuth is also supported for platform / Increase-for-platforms integrations.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -115,7 +115,7 @@ slug: increase-com-authentication
 source_filename: increase-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/increase-com-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Increase API key passed as `Authorization: Bearer YOUR_API_KEY`. Keys are environment-scoped\n    (production vs sandbox). OAuth is also supported for platform / Increase-for-platforms integrations.'\n  sources:\n  - openapi/increase-com-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/increase-com-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Increase API key passed as `Authorization: Bearer [example key]`. Keys are environment-scoped\n    (production vs sandbox). OAuth is also supported for platform / Increase-for-platforms integrations.'\n  sources:\n  - openapi/increase-com-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/increase-com/refs/heads/main/authentication/increase-com-authentication.yml
 summary_line: http · 1 scheme
 tags:

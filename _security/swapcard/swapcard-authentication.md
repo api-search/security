@@ -1,5 +1,18 @@
 ---
 api_key_in: []
+api_specs:
+- filename: swapcard.postman_collection.json
+  format: json
+  label: Swapcard Content API
+  slug: swapcard-content-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/swapcard/refs/heads/main/collections/swapcard.postman_collection.json
+- filename: swapcard.postman_collection.json
+  format: json
+  label: Swapcard Exhibitor Leads API
+  slug: swapcard-leads-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/swapcard/refs/heads/main/collections/swapcard.postman_collection.json
 auth_types:
 - apiKey
 description: ''

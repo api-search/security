@@ -51,7 +51,7 @@ provider_name: Parcel Perform
 provider_slug: parcelperform
 scheme_count: 1
 schemes:
-- description: 'Bearer access token obtained from POST /auth/oauth/token/, valid for 3600 seconds (60 minutes) per indexed integration guides. Passed as `Authorization: Bearer YOUR_ACCESS_TOKEN`.'
+- description: 'Bearer access token obtained from POST /auth/oauth/token/, valid for 3600 seconds (60 minutes) per indexed integration guides. Passed as `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -61,7 +61,7 @@ slug: parcelperform-authentication
 source_filename: parcelperform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parcelperform-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer access token obtained from POST /auth/oauth/token/, valid for 3600 seconds\n    (60 minutes) per indexed integration guides. Passed as `Authorization: Bearer YOUR_ACCESS_TOKEN`.'\n  sources:\n  - openapi/parcelperform-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parcelperform-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer access token obtained from POST /auth/oauth/token/, valid for 3600 seconds\n    (60 minutes) per indexed integration guides. Passed as `Authorization: Bearer [example key]`.'\n  sources:\n  - openapi/parcelperform-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/authentication/parcelperform-authentication.yml
 summary_line: http · 1 scheme
 tags:

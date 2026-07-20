@@ -18,7 +18,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Microsoft Teams Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -42,7 +42,7 @@ slug: microsoft-teams-authentication
 source_filename: microsoft-teams-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-teams-graph-api.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 10\n  description: OAuth 2.0 authorization using Microsoft Identity Platform\n  sources:\n  - openapi/microsoft-teams-graph-api.yaml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microsoft-teams-graph-api.yaml\ndocs: https://learn.microsoft.com/en-us/graph/auth/\nidentity_platform: Microsoft Identity Platform (Entra ID)\nconsent_model: delegated and application permissions; admin consent required for high-privilege scopes\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 10\n  description: OAuth 2.0 authorization using Microsoft Identity Platform\n  sources:\n  - openapi/microsoft-teams-graph-api.yaml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/authentication/microsoft-teams-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

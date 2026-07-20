@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: gainsight-rest-api-openapi.yml
+- filename: swagger
   format: yaml
   label: Gainsight REST API
   slug: gainsight-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gainsight/refs/heads/main/openapi/gainsight-rest-api-openapi.yml
+  url: https://api.gainsight.com/swagger
 - filename: gainsight-px-api-openapi.yml
   format: yaml
   label: Gainsight PX API

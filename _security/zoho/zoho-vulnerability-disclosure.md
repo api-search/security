@@ -6,6 +6,18 @@ api_specs:
   slug: zoho-crm
   spec_type: OpenAPI
   url: https://github.com/zoho/crm-oas
+- filename: postman.yaml
+  format: yaml
+  label: Zoho Books
+  slug: zoho-books
+  spec_type: Postman
+  url: https://www.zoho.com/books/api/v3/apicollection/
+- filename: postman.yaml
+  format: yaml
+  label: Zoho Billing
+  slug: zoho-billing
+  spec_type: Postman
+  url: https://www.zoho.com/billing/api/v1/apicollection/
 - filename: zohodesk-oas
   format: yaml
   label: Zoho Desk

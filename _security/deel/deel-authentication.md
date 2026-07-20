@@ -129,7 +129,7 @@ provider_name: Deel
 provider_slug: deel
 scheme_count: 1
 schemes:
-- description: "## Authentication\nThe Deel API uses bearer tokens to authenticate requests. All API calls must be made over HTTPS — calls over plain HTTP or without authentication will fail.\n\n```curl\ncurl -X GET 'https://api.letsdeel.com/rest/v2/contracts' \\\n  -H 'Authorization: Bearer YOUR-TOKEN-HERE'\n```\n\n[Learn more about authentication](/api/authentication)"
+- description: "## Authentication\nThe Deel API uses bearer tokens to authenticate requests. All API calls must be made over HTTPS — calls over plain HTTP or without authentication will fail.\n\n```curl\ncurl -X GET 'https://api.letsdeel.com/rest/v2/contracts' \\\n  -H 'Authorization: Bearer [example key]'\n```\n\n[Learn more about authentication](/api/authentication)"
   name: deelToken
   scheme: bearer
   sources:
@@ -146,7 +146,7 @@ slug: deel-authentication
 source_filename: deel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/deel-contracts-endpoints-openapi.json, openapi/deel-custom-fields-endpoints-openapi.json,\n  openapi/deel-endpoints-1-openapi.json, openapi/deel-eor-endpoints-openapi.json, openapi/deel-eor-worker-endpoints-openapi.json,\n  openapi/deel-global-payroll-endpoints-openapi.json, openapi/deel-it-endpoints-openapi.json,\n  openapi/deel-platform-endpoints-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: deelToken\n  type: http\n  scheme: bearer\n  description: |-\n    ## Authentication\n    The Deel API uses bearer tokens to authenticate requests. All API calls must be made over HTTPS — calls over plain HTTP or without authentication will fail.\n\n    ```curl\n    curl -X GET 'https://api.letsdeel.com/rest/v2/contracts' \\\n      -H 'Authorization: Bearer YOUR-TOKEN-HERE'\n    ```\n\n    [Learn more about authentication](/api/authentication)\n  sources:\n  - openapi/deel-contracts-endpoints-openapi.json\n  - openapi/deel-custom-fields-endpoints-openapi.json\n\
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/deel-contracts-endpoints-openapi.json, openapi/deel-custom-fields-endpoints-openapi.json,\n  openapi/deel-endpoints-1-openapi.json, openapi/deel-eor-endpoints-openapi.json, openapi/deel-eor-worker-endpoints-openapi.json,\n  openapi/deel-global-payroll-endpoints-openapi.json, openapi/deel-it-endpoints-openapi.json,\n  openapi/deel-platform-endpoints-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: deelToken\n  type: http\n  scheme: bearer\n  description: |-\n    ## Authentication\n    The Deel API uses bearer tokens to authenticate requests. All API calls must be made over HTTPS — calls over plain HTTP or without authentication will fail.\n\n    ```curl\n    curl -X GET 'https://api.letsdeel.com/rest/v2/contracts' \\\n      -H 'Authorization: Bearer [example key]'\n    ```\n\n    [Learn more about authentication](/api/authentication)\n  sources:\n  - openapi/deel-contracts-endpoints-openapi.json\n  - openapi/deel-custom-fields-endpoints-openapi.json\n\
   \  - openapi/deel-endpoints-1-openapi.json\n  - openapi/deel-eor-endpoints-openapi.json\n  - openapi/deel-eor-worker-endpoints-openapi.json\n  - openapi/deel-global-payroll-endpoints-openapi.json\n  - openapi/deel-it-endpoints-openapi.json\n  - openapi/deel-platform-endpoints-openapi.json\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deel/refs/heads/main/authentication/deel-authentication.yml
 summary_line: http · 1 scheme

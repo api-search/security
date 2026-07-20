@@ -24,7 +24,7 @@ provider_slug: memfault
 scheme_count: 3
 schemes:
 - bearerFormat: token
-  description: 'Organization Auth Token. Use "Authorization: Bearer oat_xxx" for automation
+  description: 'Organization Auth Token. Use "Authorization: Bearer [example key]" for automation
 
     and full API access.'
   name: orgAuthToken
@@ -51,7 +51,7 @@ slug: memfault-authentication
 source_filename: memfault-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/memfault-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: orgAuthToken\n  type: http\n  scheme: bearer\n  bearerFormat: token\n  description: |-\n    Organization Auth Token. Use \"Authorization: Bearer oat_xxx\" for automation\n    and full API access.\n  sources:\n  - openapi/memfault-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Email + password or Email + user API key via HTTP Basic auth.\n  sources:\n  - openapi/memfault-openapi.yml\n- name: projectKey\n  type: apiKey\n  in: header\n  parameter: Memfault-Project-Key\n  description: |-\n    Memfault Project Key used by devices and ingestion endpoints (chunks,\n    latest release lookup, events, coredumps).\n  sources:\n  - openapi/memfault-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/memfault-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: orgAuthToken\n  type: http\n  scheme: bearer\n  bearerFormat: token\n  description: |-\n    Organization Auth Token. Use \"Authorization: Bearer [example key]\" for automation\n    and full API access.\n  sources:\n  - openapi/memfault-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Email + password or Email + user API key via HTTP Basic auth.\n  sources:\n  - openapi/memfault-openapi.yml\n- name: projectKey\n  type: apiKey\n  in: header\n  parameter: Memfault-Project-Key\n  description: |-\n    Memfault Project Key used by devices and ingestion endpoints (chunks,\n    latest release lookup, events, coredumps).\n  sources:\n  - openapi/memfault-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/authentication/memfault-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:

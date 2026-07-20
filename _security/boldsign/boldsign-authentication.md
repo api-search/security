@@ -22,7 +22,7 @@ provider_name: BoldSign
 provider_slug: boldsign
 scheme_count: 2
 schemes:
-- description: 'Format ''Bearer'' [space] [TOKEN]. Ex: ''Bearer eyJhbGciOiJIUzI1N'''
+- description: 'Format ''Bearer'' [space] [TOKEN]. Ex: ''Bearer [example key]'''
   in: header
   name: Bearer
   parameter: Authorization
@@ -40,7 +40,7 @@ slug: boldsign-authentication
 source_filename: boldsign-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/boldsign-esignature-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Format ''Bearer'' [space] [TOKEN]. Ex: ''Bearer eyJhbGciOiJIUzI1N'''\n  sources:\n  - openapi/boldsign-esignature-openapi.yml\n- name: X-API-KEY\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: 'Format [API-KEY]. Ex: ''abcdef12345'''\n  sources:\n  - openapi/boldsign-esignature-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/boldsign-esignature-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Format ''Bearer'' [space] [TOKEN]. Ex: ''Bearer [example key]'''\n  sources:\n  - openapi/boldsign-esignature-openapi.yml\n- name: X-API-KEY\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: 'Format [API-KEY]. Ex: ''abcdef12345'''\n  sources:\n  - openapi/boldsign-esignature-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/authentication/boldsign-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:

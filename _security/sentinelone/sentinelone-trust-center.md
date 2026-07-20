@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: sentinelone
+  format: yaml
+  label: SentinelOne Management API
+  slug: management-api
+  spec_type: Postman
+  url: https://www.postman.com/api-evangelist/sentinelone/documentation/btzef0x/sentinelone
 certifications:
 - SOC 2
 - ISO 27001

@@ -93,7 +93,7 @@ provider_name: Letta
 provider_slug: letta-ai
 scheme_count: 1
 schemes:
-- description: 'API key created at https://app.letta.com/api-keys, passed as `Authorization: Bearer YOUR_API_KEY`.'
+- description: 'API key created at https://app.letta.com/api-keys, passed as `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -103,7 +103,7 @@ slug: letta-ai-authentication
 source_filename: letta-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/letta-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key created at https://app.letta.com/api-keys, passed as `Authorization:\n    Bearer YOUR_API_KEY`.'\n  sources:\n  - openapi/letta-ai-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/letta-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key created at https://app.letta.com/api-keys, passed as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/letta-ai-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/authentication/letta-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:

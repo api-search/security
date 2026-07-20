@@ -63,7 +63,7 @@ provider_name: Paddle
 provider_slug: paddle
 scheme_count: 1
 schemes:
-- description: 'Authenticate with your Paddle API key passed in the Authorization header with the Bearer prefix, e.g. `Authorization: Bearer pdl_live_apikey_...`.'
+- description: 'Authenticate with your Paddle API key passed in the Authorization header with the Bearer prefix, e.g. `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -73,7 +73,7 @@ slug: paddle-authentication
 source_filename: paddle-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/paddle-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Authenticate with your Paddle API key passed in the Authorization header with\n    the Bearer prefix, e.g. `Authorization: Bearer pdl_live_apikey_...`.'\n  sources:\n  - openapi/paddle-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/paddle-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Authenticate with your Paddle API key passed in the Authorization header with\n    the Bearer prefix, e.g. `Authorization: Bearer [example key]`.'\n  sources:\n  - openapi/paddle-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/authentication/paddle-authentication.yml
 summary_line: http · 1 scheme
 tags:

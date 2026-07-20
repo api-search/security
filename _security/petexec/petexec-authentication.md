@@ -63,7 +63,7 @@ provider_name: PetExec
 provider_slug: petexec
 scheme_count: 1
 schemes:
-- description: 'OAuth2 password-grant access token obtained from POST /token. Passed as `Authorization: Bearer YOUR_ACCESS_TOKEN`.'
+- description: 'OAuth2 password-grant access token obtained from POST /token. Passed as `Authorization: Bearer [example key]`.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -73,7 +73,7 @@ slug: petexec-authentication
 source_filename: petexec-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/petexec-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'OAuth2 password-grant access token obtained from POST /token. Passed as `Authorization:\n    Bearer YOUR_ACCESS_TOKEN`.'\n  sources:\n  - openapi/petexec-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/petexec-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'OAuth2 password-grant access token obtained from POST /token. Passed as `Authorization:\n    Bearer [example key]`.'\n  sources:\n  - openapi/petexec-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/authentication/petexec-authentication.yml
 summary_line: http · 1 scheme
 tags:

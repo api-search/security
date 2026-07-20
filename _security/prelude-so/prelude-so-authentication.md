@@ -39,7 +39,7 @@ provider_name: Prelude
 provider_slug: prelude-so
 scheme_count: 1
 schemes:
-- description: 'Bearer API key passed as `Authorization: Bearer YOUR_API_KEY`. Keys are issued from the Prelude dashboard under All Services > Configure > Keys. In API v2 this replaced the v1 `X-API-Key` header and the previously required `CUSTOMER_UUID` header.'
+- description: 'Bearer API key passed as `Authorization: Bearer [example key]`. Keys are issued from the Prelude dashboard under All Services > Configure > Keys. In API v2 this replaced the v1 `X-API-Key` header and the previously required `CUSTOMER_UUID` header.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -50,7 +50,7 @@ slug: prelude-so-authentication
 source_filename: prelude-so-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prelude-so-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer API key passed as `Authorization: Bearer YOUR_API_KEY`. Keys are\n    issued from the Prelude dashboard under All Services > Configure > Keys. In\n    API v2 this replaced the v1 `X-API-Key` header and the previously required\n    `CUSTOMER_UUID` header.\n  sources:\n  - openapi/prelude-so-openapi.yml\n  - https://docs.prelude.so/verify/v2/documentation/v2-migration-guide\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prelude-so-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer API key passed as `Authorization: Bearer [example key]`. Keys are\n    issued from the Prelude dashboard under All Services > Configure > Keys. In\n    API v2 this replaced the v1 `X-API-Key` header and the previously required\n    `CUSTOMER_UUID` header.\n  sources:\n  - openapi/prelude-so-openapi.yml\n  - https://docs.prelude.so/verify/v2/documentation/v2-migration-guide\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/authentication/prelude-so-authentication.yml
 summary_line: http · 1 scheme
 tags:

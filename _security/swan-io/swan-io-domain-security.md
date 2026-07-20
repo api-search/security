@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: swan-io.postman_collection.json
+  format: json
+  label: Swan Accounts API
+  slug: swan-io-accounts-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/collections/swan-io.postman_collection.json
+- filename: swan-io.postman_collection.json
+  format: json
+  label: Swan Account Memberships API
+  slug: swan-io-account-memberships-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/collections/swan-io.postman_collection.json
+- filename: swan-io.postman_collection.json
+  format: json
+  label: Swan Cards API
+  slug: swan-io-cards-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/collections/swan-io.postman_collection.json
+- filename: swan-io.postman_collection.json
+  format: json
+  label: Swan Payments API
+  slug: swan-io-payments-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/collections/swan-io.postman_collection.json
+- filename: swan-io.postman_collection.json
+  format: json
+  label: Swan Transactions API
+  slug: swan-io-transactions-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/collections/swan-io.postman_collection.json
+- filename: swan-io.postman_collection.json
+  format: json
+  label: Swan Onboarding API
+  slug: swan-io-onboarding-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/collections/swan-io.postman_collection.json
+- filename: swan-io.postman_collection.json
+  format: json
+  label: Swan Users and Consents API
+  slug: swan-io-users-consents-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/collections/swan-io.postman_collection.json
 description: ''
 domains:
 - caa: []

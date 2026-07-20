@@ -6,12 +6,12 @@ api_specs:
   slug: clickhouse-http-interface
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/clickhouse/refs/heads/main/openapi/clickhouse-openapi.yml
-- filename: v1
+- filename: swagger
   format: yaml
   label: ClickHouse Cloud API
   slug: clickhouse-cloud-api
   spec_type: OpenAPI
-  url: https://api.clickhouse.cloud/v1
+  url: https://clickhouse.com/docs/cloud/manage/api/swagger
 certifications:
 - SOC 2
 - ISO 27001

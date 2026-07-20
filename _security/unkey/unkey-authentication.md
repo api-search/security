@@ -28,7 +28,7 @@ schemes:
 
     ```
 
-    Authorization: Bearer unkey_123
+    Authorization: Bearer [example key]
 
     ```
 
@@ -42,7 +42,7 @@ slug: unkey-authentication
 source_filename: unkey-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unkey-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: rootKey\n  type: http\n  scheme: bearer\n  bearerFormat: root key\n  description: |-\n    Unkey uses API keys (root keys) for authentication. These keys authorize access to management operations in the API.\n    To authenticate, include your root key in the Authorization header of each request:\n    ```\n    Authorization: Bearer unkey_123\n    ```\n    Root keys have specific permissions attached to them, controlling what operations they can perform. Key permissions follow a hierarchical structure with patter\n  sources:\n  - openapi/unkey-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/unkey-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: rootKey\n  type: http\n  scheme: bearer\n  bearerFormat: root key\n  description: |-\n    Unkey uses API keys (root keys) for authentication. These keys authorize access to management operations in the API.\n    To authenticate, include your root key in the Authorization header of each request:\n    ```\n    Authorization: Bearer [example key]\n    ```\n    Root keys have specific permissions attached to them, controlling what operations they can perform. Key permissions follow a hierarchical structure with patter\n  sources:\n  - openapi/unkey-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/authentication/unkey-authentication.yml
 summary_line: http · 1 scheme
 tags:

@@ -2,12 +2,12 @@
 api_key_in:
 - header
 api_specs:
-- filename: active-campaign-openapi.yml
+- filename: activecampaign-api-v3
   format: yaml
   label: ActiveCampaign API v3
   slug: api-v3
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-campaign/refs/heads/main/openapi/active-campaign-openapi.yml
+  spec_type: Postman
+  url: https://www.postman.com/acdevrel/activecampaign-developer-relations/collection/ju5a59q/activecampaign-api-v3
 auth_types:
 - apiKey
 description: ''

@@ -1,6 +1,13 @@
 ---
 api_key_in:
 - header
+api_specs:
+- filename: swagger.html
+  format: yaml
+  label: Cassandra REST API (Stargate)
+  slug: cassandra-rest-api-stargate
+  spec_type: OpenAPI
+  url: https://stargate.io/docs/latest/develop/api-rest/swagger.html
 auth_types:
 - apiKey
 description: ''

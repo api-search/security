@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: vat-api
+  format: yaml
+  label: VAT API v2
+  slug: vat-api
+  spec_type: Postman
+  url: https://www.postman.com/vatapi/vat-api-s-public-workspace/documentation/ku592di/vat-api
 description: ''
 domains:
 - caa: []

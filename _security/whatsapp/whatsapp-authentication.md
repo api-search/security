@@ -19,6 +19,12 @@ api_specs:
   slug: flows-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/openapi/whatsapp-flows-api-openapi.yml
+- filename: whatsapp-on-premises-api-deprecated
+  format: yaml
+  label: WhatsApp On-Premises API
+  slug: on-premises-api
+  spec_type: Postman
+  url: https://www.postman.com/meta/whatsapp-business-platform/collection/vdi189b/whatsapp-on-premises-api-deprecated
 auth_types:
 - http
 description: ''

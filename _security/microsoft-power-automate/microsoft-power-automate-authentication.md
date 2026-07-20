@@ -12,7 +12,7 @@ auth_types:
 description: ''
 kind: authentication
 layout: security
-method: derived
+method: searched
 name: Microsoft Power Automate Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -36,7 +36,7 @@ slug: microsoft-power-automate-authentication
 source_filename: microsoft-power-automate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-power-automate-management-api.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 1\n  description: Microsoft Entra ID (Azure AD) OAuth 2.0 authentication.\n  sources:\n  - openapi/microsoft-power-automate-management-api.yaml\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/microsoft-power-automate-management-api.yaml\ndocs: https://learn.microsoft.com/en-us/power-automate/web-api#authentication\noidc_discovery: well-known/microsoft-power-automate-openid-configuration.json\nnotes: >-\n  Authentication is Microsoft Entra ID (Azure AD) OAuth 2.0. The API is a\n  protected resource (https://service.flow.microsoft.com); clients acquire a\n  token via the authorization code flow and present it as a Bearer token.\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 1\n  description: Microsoft Entra ID (Azure AD) OAuth 2.0 authentication.\n  sources:\n  - openapi/microsoft-power-automate-management-api.yaml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/authentication/microsoft-power-automate-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

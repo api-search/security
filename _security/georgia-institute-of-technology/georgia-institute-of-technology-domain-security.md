@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: georgia-institute-of-technology-sums.yaml
-  format: yaml
+- filename: swagger.json
+  format: json
   label: SUMS REST API
   slug: sums
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/georgia-institute-of-technology/refs/heads/main/openapi/georgia-institute-of-technology-sums.yaml
+  url: https://sums.gatech.edu/SUMSAPI/rest/API/swagger.json
 description: ''
 domains:
 - caa: []

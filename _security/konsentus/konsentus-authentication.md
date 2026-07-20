@@ -1,12 +1,12 @@
 ---
 api_key_in: []
 api_specs:
-- filename: konsentus-verify-api-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Konsentus Verify API
   slug: konsentus-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/openapi/konsentus-verify-api-openapi.yml
+  url: https://swagger.konsentus.com/
 auth_types:
 - http
 description: ''
