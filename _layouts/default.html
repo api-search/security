@@ -216,12 +216,20 @@
               <a class="nav-link{% if site.nav_active == 'tags' %} active{% endif %}" href="https://apis.io/tags/">Tags</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle{% if site.nav_active == 'more' or site.nav_active == 'industries' or site.nav_active == 'regions' or site.nav_active == 'areas' or site.nav_active == 'skills' or site.nav_active == 'mcp' or site.nav_active == 'events' or site.nav_active == 'arazzo' or site.nav_active == 'collections' or site.nav_active == 'security' or site.nav_active == 'scopes' or site.nav_active == 'agentic-access' or site.nav_active == 'analytics' or site.nav_active == 'search-terms' %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+              <a class="nav-link dropdown-toggle{% if site.nav_active == 'more' or site.nav_active == 'industries' or site.nav_active == 'regions' or site.nav_active == 'areas' or site.nav_active == 'skills' or site.nav_active == 'mcp' or site.nav_active == 'events' or site.nav_active == 'arazzo' or site.nav_active == 'collections' or site.nav_active == 'security' or site.nav_active == 'scopes' or site.nav_active == 'agentic-access' or site.nav_active == 'analytics' or site.nav_active == 'search-terms' or site.nav_active == 'use-cases' or site.nav_active == 'features' or site.nav_active == 'vcs' or site.nav_active == 'secondary-market' %} active{% endif %}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
               <ul class="dropdown-menu">
                 <li><h6 class="dropdown-header">Browse by</h6></li>
                 <li><a class="dropdown-item{% if site.nav_active == 'industries' %} active{% endif %}" href="https://apis.io/industries/">Industries</a></li>
                 <li><a class="dropdown-item{% if site.nav_active == 'regions' %} active{% endif %}" href="https://apis.io/regions/">Regions</a></li>
                 <li><a class="dropdown-item{% if site.nav_active == 'areas' %} active{% endif %}" href="https://apis.io/areas/">Areas</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><h6 class="dropdown-header">Capabilities</h6></li>
+                <li><a class="dropdown-item{% if site.nav_active == 'use-cases' %} active{% endif %}" href="https://apis.io/use-cases/">Use Cases</a></li>
+                <li><a class="dropdown-item{% if site.nav_active == 'features' %} active{% endif %}" href="https://apis.io/features/">Features</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><h6 class="dropdown-header">Financialization</h6></li>
+                <li><a class="dropdown-item{% if site.nav_active == 'vcs' %} active{% endif %}" href="https://apis.io/vcs/">Venture Capital</a></li>
+                <li><a class="dropdown-item{% if site.nav_active == 'secondary-market' %} active{% endif %}" href="https://apis.io/secondary-market/">Secondary Market</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><h6 class="dropdown-header">Agent surfaces</h6></li>
                 <li><a class="dropdown-item{% if site.nav_active == 'skills' %} active{% endif %}" href="https://apis.io/agent-skills/">Agent Skills</a></li>

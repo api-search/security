@@ -1,5 +1,12 @@
 ---
 api_key_in: []
+api_specs:
+- filename: spire-maritime.postman_collection.json
+  format: json
+  label: Spire Maritime Vessels API
+  slug: spire-maritime-vessels-api
+  spec_type: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/spire-maritime/refs/heads/main/collections/spire-maritime.postman_collection.json
 auth_types:
 - http
 - token
