@@ -75,7 +75,7 @@ provider_name: Alloy Automation
 provider_slug: alloy-automation
 scheme_count: 1
 schemes:
-- description: 'Bearer API key in the Authorization header, e.g. `Authorization: Bearer YOUR_API_KEY`. Frontend calls use a per-user JWT instead of the master key.'
+- description: 'Bearer API key in the Authorization header, e.g. `Authorization: Bearer [example key]`. Frontend calls use a per-user JWT instead of the master key.'
   name: bearerAuth
   scheme: bearer
   sources:
@@ -85,7 +85,7 @@ slug: alloy-automation-authentication
 source_filename: alloy-automation-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/alloy-automation-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer API key in the Authorization header, e.g. `Authorization: Bearer YOUR_API_KEY`.\n    Frontend calls use a per-user JWT instead of the master key.'\n  sources:\n  - openapi/alloy-automation-openapi.yml\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/alloy-automation-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer API key in the Authorization header, e.g. `Authorization: Bearer [example key]`.\n    Frontend calls use a per-user JWT instead of the master key.'\n  sources:\n  - openapi/alloy-automation-openapi.yml\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/authentication/alloy-automation-authentication.yml
 summary_line: http · 1 scheme
 tags:

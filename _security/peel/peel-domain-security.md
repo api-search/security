@@ -1,0 +1,37 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: peel.com
+  spf: false
+hosts:
+- cert_expires: Dec  6 20:06:44 2026 GMT
+  host: www.peel.com
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Peel Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Peel, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+provider_name: Peel
+provider_slug: peel
+slug: peel-domain-security
+source_filename: peel-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.peel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 20:06:44 2026 GMT\n  hsts: null\ndomains:\n- domain: peel.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peel/refs/heads/main/security/peel-domain-security.yml
+summary_line: TLSv1.3
+tags:
+- Company
+- Consumer Electronics
+- Smart Remote
+- Mobile App
+- Media and Entertainment
+- Smart Home
+---

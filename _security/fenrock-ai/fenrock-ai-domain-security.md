@@ -1,0 +1,44 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: fenrock.ai
+  spf: true
+hosts:
+- cert_expires: Sep 25 20:40:59 2026 GMT
+  host: www.fenrock.ai
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Fenrock Ai Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Fenrock AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Fenrock AI
+provider_slug: fenrock-ai
+slug: fenrock-ai-domain-security
+source_filename: fenrock-ai-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fenrock.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 20:40:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: fenrock.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fenrock-ai/refs/heads/main/security/fenrock-ai-domain-security.yml
+summary_line: TLSv1.3 · HSTS
+tags:
+- Company
+- Artificial Intelligence
+- AI Agents
+- Banking
+- Financial Services
+- Compliance
+- Financial Crime
+- RegTech
+- Anti-Money Laundering
+- KYC
+- Fraud
+- Back Office
+---

@@ -1,0 +1,48 @@
+---
+api_specs:
+- filename: samora-ai-openapi.yml
+  format: yaml
+  label: Samora AI API
+  slug: samora-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: samora.ai
+  spf: true
+hosts:
+- cert_expires: Nov 11 23:59:59 2026 GMT
+  host: api.samora.ai
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+kind: domain-security
+layout: security
+method: probed
+name: Samora Ai Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Samora AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Samora AI
+provider_slug: samora-ai
+slug: samora-ai-domain-security
+source_filename: samora-ai-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.samora.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: samora.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/security/samora-ai-domain-security.yml
+summary_line: TLSv1.3 · DMARC
+tags:
+- Company
+- Voice Agents
+- Conversational AI
+- Voice AI
+- Telephony
+- Customer Communications
+- Contact Center
+- Campaigns
+- Webhooks
+---

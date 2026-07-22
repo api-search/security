@@ -1,0 +1,35 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: evelobio.com
+  spf: true
+hosts:
+- host: evelobio.com
+  https: false
+kind: domain-security
+layout: security
+method: probed
+name: Evelo Biosciences Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Evelo Biosciences *, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Evelo Biosciences *
+provider_slug: evelo-biosciences
+slug: evelo-biosciences-domain-security
+source_filename: evelo-biosciences-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: evelobio.com\n  https: false\ndomains:\n- domain: evelobio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evelo-biosciences/refs/heads/main/security/evelo-biosciences-domain-security.yml
+summary_line: no transport/DNS hardening detected
+tags:
+- Company
+- Life Sciences
+- Biotechnology
+- Microbiome
+- Pharmaceuticals
+- Dissolved
+- Venture Backed
+---
